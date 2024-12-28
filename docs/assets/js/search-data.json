@@ -20,307 +20,349 @@
     
     "relUrl": "/games/d/disaster_report.html"
   },"3": {
+    "doc": "First Steps",
+    "title": "First Steps",
+    "content": " ",
+    "url": "/first-steps.html",
+    
+    "relUrl": "/first-steps.html"
+  },"4": {
     "doc": "Nintendo GameCube",
     "title": "Nintendo GameCube",
     "content": " ",
     "url": "/systems/gc.html",
     
     "relUrl": "/systems/gc.html"
-  },"4": {
+  },"5": {
     "doc": "Systems",
     "title": "Systems",
     "content": " ",
     "url": "/systems/",
     
     "relUrl": "/systems/"
-  },"5": {
+  },"6": {
     "doc": "Games",
     "title": "Games",
     "content": " ",
     "url": "/games/",
     
     "relUrl": "/games/"
-  },"6": {
+  },"7": {
+    "doc": "Home",
+    "title": "Welcome to the Retroid Pocket 5 Emulation Hub",
+    "content": "Your ultimate resource for setting up and optimizing Retroid Pocket 5 emulation. This site provides a comprehensive, hand-picked database of games, emulators, and settings to help you achieve smooth, full-speed gameplay at 1080p. ",
+    "url": "/#welcome-to-the-retroid-pocket-5-emulation-hub",
+    
+    "relUrl": "/#welcome-to-the-retroid-pocket-5-emulation-hub"
+  },"8": {
+    "doc": "Home",
+    "title": "🚀 What You’ll Find Here",
+    "content": "🎮 Game Database . Explore an extensive collection of games, each meticulously tested to ensure optimal performance. Each entry includes: . | Full speed settings for 1080p gameplay. | Emulator-specific tweaks. | Controller configurations. | . 👉 Browse Games . 🕹️ Emulator Guides . Detailed guides for configuring the best emulators for Retroid Pocket 5, including: . | Installation instructions. | Performance settings. | Compatibility tips. | . 👉 View Emulator Guides . ",
+    "url": "/#-what-youll-find-here",
+    
+    "relUrl": "/#-what-youll-find-here"
+  },"9": {
+    "doc": "Home",
+    "title": "📋 Supported Systems",
+    "content": "This site includes settings and optimizations for the following platforms: . | Nintendo GameCube (by Nintendo) | Nintendo 64 (by Nintendo) | PlayStation 2 (by Sony) | PlayStation Portable (by Sony) | PlayStation (by Sony) | Sega Saturn (by Sega) | PS Vita (by Sony) | Wii (by Nintendo) | Wii U (by Nintendo) | Windows (by Microsoft) | . ",
+    "url": "/#-supported-systems",
+    
+    "relUrl": "/#-supported-systems"
+  },"10": {
+    "doc": "Home",
+    "title": "🌟 Getting Started",
+    "content": "Ready to dive in? Here’s how to begin: . | Set Up Your System: Follow our First Steps guide. | Install Emulators: Choose the best emulators for your needs. | Find Your Games: Browse the game database for settings. | . ",
+    "url": "/#-getting-started",
+    
+    "relUrl": "/#-getting-started"
+  },"11": {
+    "doc": "Home",
+    "title": "🛡️ Stay Updated",
+    "content": "We’re always adding new games, systems, and optimizations. Bookmark this page and check back regularly for the latest updates! . ",
+    "url": "/#%EF%B8%8F-stay-updated",
+    
+    "relUrl": "/#️-stay-updated"
+  },"12": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"7": {
+  },"13": {
     "doc": "Metal Gear Solid: The Twin Snakes",
     "title": "Metal Gear Solid: The Twin Snakes",
     "content": " ",
     "url": "/games/m/metal_gear_solid_the_twin_snakes.html",
     
     "relUrl": "/games/m/metal_gear_solid_the_twin_snakes.html"
-  },"8": {
+  },"14": {
     "doc": "Nintendo 64",
     "title": "Nintendo 64",
     "content": " ",
     "url": "/systems/n64.html",
     
     "relUrl": "/systems/n64.html"
-  },"9": {
+  },"15": {
     "doc": "Policenauts",
     "title": "Policenauts",
     "content": " ",
     "url": "/games/p/policenauts.html",
     
     "relUrl": "/games/p/policenauts.html"
-  },"10": {
+  },"16": {
     "doc": "PlayStation 2",
     "title": "PlayStation 2",
     "content": " ",
     "url": "/systems/ps2.html",
     
     "relUrl": "/systems/ps2.html"
-  },"11": {
+  },"17": {
     "doc": "PlayStation Portable",
     "title": "PlayStation Portable",
     "content": " ",
     "url": "/systems/psp.html",
     
     "relUrl": "/systems/psp.html"
-  },"12": {
+  },"18": {
     "doc": "PlayStation",
     "title": "PlayStation",
     "content": " ",
     "url": "/systems/psx.html",
     
     "relUrl": "/systems/psx.html"
-  },"13": {
+  },"19": {
     "doc": "Resident Evil 2",
     "title": "Resident Evil 2",
     "content": " ",
     "url": "/games/r/resident_evil_2.html",
     
     "relUrl": "/games/r/resident_evil_2.html"
-  },"14": {
+  },"20": {
     "doc": "Resident Evil 3: Nemesis",
     "title": "Resident Evil 3: Nemesis",
     "content": " ",
     "url": "/games/r/resident_evil_3_nemesis.html",
     
     "relUrl": "/games/r/resident_evil_3_nemesis.html"
-  },"15": {
+  },"21": {
     "doc": "Sega Saturn",
     "title": "Sega Saturn",
     "content": " ",
     "url": "/systems/saturn.html",
     
     "relUrl": "/systems/saturn.html"
-  },"16": {
+  },"22": {
     "doc": "PS Vita",
     "title": "PS Vita",
     "content": " ",
     "url": "/systems/vita.html",
     
     "relUrl": "/systems/vita.html"
-  },"17": {
+  },"23": {
     "doc": "Wii",
     "title": "Wii",
     "content": " ",
     "url": "/systems/wii.html",
     
     "relUrl": "/systems/wii.html"
-  },"18": {
+  },"24": {
     "doc": "Wii U",
     "title": "Wii U",
     "content": " ",
     "url": "/systems/wiiu.html",
     
     "relUrl": "/systems/wiiu.html"
-  },"19": {
+  },"25": {
     "doc": "Windows",
     "title": "Windows",
     "content": " ",
     "url": "/systems/windows.html",
     
     "relUrl": "/systems/windows.html"
-  },"20": {
+  },"26": {
     "doc": "0-9",
     "title": "0-9",
     "content": "# Games: 0-9 ",
     "url": "/games/0-9/",
     
     "relUrl": "/games/0-9/"
-  },"21": {
+  },"27": {
     "doc": "A",
     "title": "A",
     "content": "# Games: A ",
     "url": "/games/a/",
     
     "relUrl": "/games/a/"
-  },"22": {
+  },"28": {
     "doc": "B",
     "title": "B",
     "content": "# Games: B ",
     "url": "/games/b/",
     
     "relUrl": "/games/b/"
-  },"23": {
+  },"29": {
     "doc": "C",
     "title": "C",
     "content": "# Games: C ",
     "url": "/games/c/",
     
     "relUrl": "/games/c/"
-  },"24": {
+  },"30": {
     "doc": "D",
     "title": "D",
     "content": "# Games: D ",
     "url": "/games/d/",
     
     "relUrl": "/games/d/"
-  },"25": {
+  },"31": {
     "doc": "E",
     "title": "E",
     "content": "# Games: E ",
     "url": "/games/e/",
     
     "relUrl": "/games/e/"
-  },"26": {
+  },"32": {
     "doc": "F",
     "title": "F",
     "content": "# Games: F ",
     "url": "/games/f/",
     
     "relUrl": "/games/f/"
-  },"27": {
+  },"33": {
     "doc": "G",
     "title": "G",
     "content": "# Games: G ",
     "url": "/games/g/",
     
     "relUrl": "/games/g/"
-  },"28": {
+  },"34": {
     "doc": "H",
     "title": "H",
     "content": "# Games: H ",
     "url": "/games/h/",
     
     "relUrl": "/games/h/"
-  },"29": {
+  },"35": {
     "doc": "I",
     "title": "I",
     "content": "# Games: I ",
     "url": "/games/i/",
     
     "relUrl": "/games/i/"
-  },"30": {
+  },"36": {
     "doc": "J",
     "title": "J",
     "content": "# Games: J ",
     "url": "/games/j/",
     
     "relUrl": "/games/j/"
-  },"31": {
+  },"37": {
     "doc": "K",
     "title": "K",
     "content": "# Games: K ",
     "url": "/games/k/",
     
     "relUrl": "/games/k/"
-  },"32": {
+  },"38": {
     "doc": "L",
     "title": "L",
     "content": "# Games: L ",
     "url": "/games/l/",
     
     "relUrl": "/games/l/"
-  },"33": {
+  },"39": {
     "doc": "M",
     "title": "M",
     "content": "# Games: M ",
     "url": "/games/m/",
     
     "relUrl": "/games/m/"
-  },"34": {
+  },"40": {
     "doc": "N",
     "title": "N",
     "content": "# Games: N ",
     "url": "/games/n/",
     
     "relUrl": "/games/n/"
-  },"35": {
+  },"41": {
     "doc": "O",
     "title": "O",
     "content": "# Games: O ",
     "url": "/games/o/",
     
     "relUrl": "/games/o/"
-  },"36": {
+  },"42": {
     "doc": "P",
     "title": "P",
     "content": "# Games: P ",
     "url": "/games/p/",
     
     "relUrl": "/games/p/"
-  },"37": {
+  },"43": {
     "doc": "Q",
     "title": "Q",
     "content": "# Games: Q ",
     "url": "/games/q/",
     
     "relUrl": "/games/q/"
-  },"38": {
+  },"44": {
     "doc": "R",
     "title": "R",
     "content": "# Games: R ",
     "url": "/games/r/",
     
     "relUrl": "/games/r/"
-  },"39": {
+  },"45": {
     "doc": "S",
     "title": "S",
     "content": "# Games: S ",
     "url": "/games/s/",
     
     "relUrl": "/games/s/"
-  },"40": {
+  },"46": {
     "doc": "T",
     "title": "T",
     "content": "# Games: T ",
     "url": "/games/t/",
     
     "relUrl": "/games/t/"
-  },"41": {
+  },"47": {
     "doc": "U",
     "title": "U",
     "content": "# Games: U ",
     "url": "/games/u/",
     
     "relUrl": "/games/u/"
-  },"42": {
+  },"48": {
     "doc": "V",
     "title": "V",
     "content": "# Games: V ",
     "url": "/games/v/",
     
     "relUrl": "/games/v/"
-  },"43": {
+  },"49": {
     "doc": "W",
     "title": "W",
     "content": "# Games: W ",
     "url": "/games/w/",
     
     "relUrl": "/games/w/"
-  },"44": {
+  },"50": {
     "doc": "X",
     "title": "X",
     "content": "# Games: X ",
     "url": "/games/x/",
     
     "relUrl": "/games/x/"
-  },"45": {
+  },"51": {
     "doc": "Y",
     "title": "Y",
     "content": "# Games: Y ",
     "url": "/games/y/",
     
     "relUrl": "/games/y/"
-  },"46": {
+  },"52": {
     "doc": "Z",
     "title": "Z",
     "content": "# Games: Z ",
