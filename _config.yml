@@ -1,0 +1,16 @@
+destination: docs/
+
+collections:
+  systems:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "systems"
+    values:
+      layout: "system"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
