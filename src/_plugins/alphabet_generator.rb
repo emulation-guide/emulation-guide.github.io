@@ -2,8 +2,7 @@ class AlphabetGenerator < Jekyll::Generator
   priority :normal
 
   def generate(site)
-    site.pages << AlphabetPage.new(site, site.source, "/games/no/", "#")
-    entries = ('A'..'Z').to_a
+    entries = ['0-9'] + ('A'..'Z').to_a
     entries.each do |entry|
       site.pages << AlphabetPage.new(site, site.source, "/games/#{entry.downcase}/", entry)
     end
@@ -22,6 +21,6 @@ class AlphabetPage < Jekyll::Page
       'parent' => 'Games',
       'layout' => 'default'
     }
-    self.content = "# #{entry}"
+    self.content = "# Games: #{entry}"
   end
 end
