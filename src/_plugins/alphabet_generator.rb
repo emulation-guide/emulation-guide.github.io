@@ -19,7 +19,8 @@ class AlphabetPage < Jekyll::Page
     self.process(@name)
     self.data = {
       'title' => entry,
-      'parent' => 'Games'
+      'parent' => 'Games',
+      'layout' => 'default'
     }
     self.content = "# #{entry}"
   end
