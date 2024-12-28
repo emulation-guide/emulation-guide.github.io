@@ -35,10 +35,10 @@ Detailed guides for configuring the best emulators for Retroid Pocket 5, includi
 This site includes settings and optimizations for the following platforms:
 
 <ul>
-  {% for system_key in site.data.systems %}
+  {% for code in site.data.systems %}
     <li>
-      <a href="/systems/{{ system_key[0] }}.html">{{ system_key[1].title }}</a>
-      (by {{ system_key[1].manufacturer }})
+      <a href="/systems/{{ code[0] }}.html">{{ code[1].title }}</a>
+      (by {{ code[1].manufacturer }})
     </li>
   {% endfor %}
 </ul>

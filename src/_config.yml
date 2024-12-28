@@ -5,6 +5,10 @@ exclude:
 
 defaults:
   - scope:
+      path: systems/*
+    values:
+      layout: system
+  - scope:
       path: games/*/*
     values:
       layout: game
