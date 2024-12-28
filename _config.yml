@@ -1,4 +1,6 @@
-destination: docs/
+exclude:
+  - jekyll.*.sh
+  - LICENSE
 
 collections:
   systems:
