@@ -1,30 +1,90 @@
 gc:
   title: Nintendo GameCube
   manufacturer: Nintendo
+  years:
+    from: 2001
+    to: 2007
+  emulator:
+    title: Dolphin Emulator
+    href: https://f-droid.org/en/packages/org.dolphinemu.dolphinemu/
 n64:
   title: Nintendo 64
   manufacturer: Nintendo
+  years:
+    from: 1996
+    to: 2002
+  emulator:
+    title: M64Plus FZ Pro Emulator
+    href: https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita.pro
 ps2:
   title: PlayStation 2
   manufacturer: Sony
+  years:
+    from: 2000
+    to: 2013
+  emulator:
+    title: NetherSX2
+    href: https://github.com/masterjg/nethersx2-builds
 psp:
   title: PlayStation Portable
   manufacturer: Sony
+  years:
+    from: 2004
+    to: 2014
+  emulator:
+    title: PPSSPP
+    href: https://f-droid.org/en/packages/org.ppsspp.ppsspp/
 psx:
   title: PlayStation
   manufacturer: Sony
+  years:
+    from: 1994
+    to: 2006
+  emulator:
+    title: DuckStation
+    href: https://www.duckstation.org/android/duckstation-android.apk
 saturn:
   title: Sega Saturn
   manufacturer: Sega
+  years:
+    from: 1994
+    to: 2000
+  emulator:
+    title: YabaSanshiro 2 Pro
+    href: https://play.google.com/store/apps/details?id=org.devmiyax.yabasanshioro2.pro
 vita:
   title: PS Vita
   manufacturer: Sony
+  years:
+    from: 2011
+    to: 2019
+  emulator:
+    title: Vita3K
+    href: https://github.com/Vita3K/Vita3K-Android
 wii:
   title: Wii
   manufacturer: Nintendo
+  years:
+    from: 2006
+    to: 2013
+  emulator:
+    title: Dolphin Emulator
+    href: https://f-droid.org/en/packages/org.dolphinemu.dolphinemu/
 wiiu:
   title: Wii U
   manufacturer: Nintendo
+  years:
+    from: 2012
+    to: 2017
+  emulator:
+    title: Cemu
+    href: https://github.com/SSimco/Cemu
 windows:
   title: Windows
   manufacturer: Microsoft
+  years:
+    from: 1985
+    to: present
+  emulator:
+    title: Winlator.glibcmod
+    href: https://github.com/coffincolors/winlator
