@@ -1,35 +1,24 @@
 exclude:
   - jekyll.*.sh
   - LICENSE
+  - old
 
-collections:
-  systems:
-    output: true
+# collections:
+#   systems:
+#     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: "systems"
-    values:
-      layout: "system"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+#   - scope:
+#       path: ""
+#       type: "systems"
+#     values:
+#       layout: "system"
+  - values:
+      layout: default
 
-# # GitHub Pages overrides
-# lsi: false
-# safe: true
-# source: .
-# incremental: false
-# highlighter: rouge
-# gist:
-#   noscript: false
-# kramdown:
-#   math_engine: mathjax
-#   syntax_highlighter: rouge
+theme: just-the-docs
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
