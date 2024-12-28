@@ -1,0 +1,30 @@
+gc:
+  title: Nintendo GameCube
+  manufacturer: Nintendo
+n64:
+  title: Nintendo 64
+  manufacturer: Nintendo
+ps2:
+  title: PlayStation 2
+  manufacturer: Sony
+psp:
+  title: PlayStation Portable
+  manufacturer: Sony
+psx:
+  title: PlayStation
+  manufacturer: Sony
+saturn:
+  title: Sega Saturn
+  manufacturer: Sega
+vita:
+  title: PS Vita
+  manufacturer: Sony
+wii:
+  title: Wii
+  manufacturer: Nintendo
+wiiu:
+  title: Wii U
+  manufacturer: Nintendo
+windows:
+  title: Windows
+  manufacturer: Microsoft

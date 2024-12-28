@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="game-page">
+  <h1 class="game-title">{{ page.title }}</h1>
+  <div class="game-metadata">
+    <p><strong>System:</strong> <a href="/systems/{{ page.system | escape }}.html">{{ site.data.systems[page.system].title }}</a></p>
+    <!-- {% if page.genre %}
+    <p><strong>Genre:</strong> {{ page.genre }}</p>
+    {% endif %}
+    {% if page.release_date %}
+    <p><strong>Release Date:</strong> {{ page.release_date }}</p>
+    {% endif %}
+  </div>
+  <hr class="game-divider">
+  <div class="game-description">
+    {{ content | markdownify }}
+  </div>
+  {% if page.related_games %}
+  <h2>Related Games</h2>
+  <ul>
+    {% for related in page.related_games %}
+    <li><a href="{{ related.url }}">{{ related.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %} -->
+</div>
