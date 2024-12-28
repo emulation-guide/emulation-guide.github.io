@@ -1,5 +1,5 @@
 ---
-parent: Systems
+parent: Nintendo
 title: Wii
 code: wii
 ---

@@ -1,5 +1,5 @@
 gc:
-  title: Nintendo GameCube
+  title: GameCube
   manufacturer: Nintendo
   years:
     from: 2001
@@ -8,7 +8,7 @@ gc:
     title: Dolphin Emulator
     href: https://f-droid.org/en/packages/org.dolphinemu.dolphinemu/
 n64:
-  title: Nintendo 64
+  title: 64
   manufacturer: Nintendo
   years:
     from: 1996
@@ -44,7 +44,7 @@ psx:
     title: DuckStation
     href: https://www.duckstation.org/android/duckstation-android.apk
 saturn:
-  title: Sega Saturn
+  title: Saturn
   manufacturer: Sega
   years:
     from: 1994
@@ -53,7 +53,7 @@ saturn:
     title: YabaSanshiro 2 Pro
     href: https://play.google.com/store/apps/details?id=org.devmiyax.yabasanshioro2.pro
 vita:
-  title: PS Vita
+  title: PlayStation Vita
   manufacturer: Sony
   years:
     from: 2011

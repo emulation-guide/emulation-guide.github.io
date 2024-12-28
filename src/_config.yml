@@ -5,7 +5,7 @@ exclude:
 
 defaults:
   - scope:
-      path: systems/*
+      path: systems/*/*
     values:
       layout: system
   - scope:

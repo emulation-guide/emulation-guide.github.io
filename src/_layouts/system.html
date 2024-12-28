@@ -3,15 +3,11 @@ layout: default
 ---
 <img src = "{{ page.code }}.png" />
 
-<table>
-    <tr>
-        <th>Manufacturer</th>
-        <td>{{ site.data.systems[page.code].manufacturer }}</td>
-    </tr>
-    <tr>
-        <th>Years active</th>
-        <td>{{ site.data.systems[page.code].years.from }} - {{ site.data.systems[page.code].years.to }}</td>
-    </tr>
-</table>
+<dl>
+    <dt>Manufacturer</dt>
+    <dd>{{ site.data.systems[page.code].manufacturer }}</dd>
+    <dt>Years active</dt>
+    <dd>{{ site.data.systems[page.code].years.from }} - {{ site.data.systems[page.code].years.to }}</dd>
+</dl>
 
 {{ content }}
