@@ -1,3 +1,4 @@
 #!/bin/env bash
 
-bundle exec jekyll build --destination docs
+cd src
+bundle exec jekyll build --destination ../docs
