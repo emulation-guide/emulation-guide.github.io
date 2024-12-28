@@ -1,16 +1,86 @@
 {"0": {
-    "doc": "Home",
-    "title": "hello world!",
+    "doc": "Nintendo GameCube",
+    "title": "Nintendo GameCube",
     "content": " ",
-    "url": "/",
+    "url": "/systems/gc.html",
     
-    "relUrl": "/"
+    "relUrl": "/systems/gc.html"
   },"1": {
+    "doc": "Systems",
+    "title": "Systems",
+    "content": " ",
+    "url": "/systems/",
+    
+    "relUrl": "/systems/"
+  },"2": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
+  },"3": {
+    "doc": "Nintendo 64",
+    "title": "Nintendo 64",
+    "content": " ",
+    "url": "/systems/n64.html",
+    
+    "relUrl": "/systems/n64.html"
+  },"4": {
+    "doc": "PlayStation 2",
+    "title": "PlayStation 2",
+    "content": " ",
+    "url": "/systems/ps2.html",
+    
+    "relUrl": "/systems/ps2.html"
+  },"5": {
+    "doc": "PlayStation Portable",
+    "title": "PlayStation Portable",
+    "content": " ",
+    "url": "/systems/psp.html",
+    
+    "relUrl": "/systems/psp.html"
+  },"6": {
+    "doc": "PlayStation",
+    "title": "PlayStation",
+    "content": " ",
+    "url": "/systems/psx.html",
+    
+    "relUrl": "/systems/psx.html"
+  },"7": {
+    "doc": "Sega Saturn",
+    "title": "Sega Saturn",
+    "content": " ",
+    "url": "/systems/saturn.html",
+    
+    "relUrl": "/systems/saturn.html"
+  },"8": {
+    "doc": "PS Vita",
+    "title": "PS Vita",
+    "content": " ",
+    "url": "/systems/vita.html",
+    
+    "relUrl": "/systems/vita.html"
+  },"9": {
+    "doc": "Wii",
+    "title": "Wii",
+    "content": " ",
+    "url": "/systems/wii.html",
+    
+    "relUrl": "/systems/wii.html"
+  },"10": {
+    "doc": "Wii U",
+    "title": "Wii U",
+    "content": " ",
+    "url": "/systems/wiiu.html",
+    
+    "relUrl": "/systems/wiiu.html"
+  },"11": {
+    "doc": "Windows",
+    "title": "Windows",
+    "content": " ",
+    "url": "/systems/windows.html",
+    
+    "relUrl": "/systems/windows.html"
   }
 }
