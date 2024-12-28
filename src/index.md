@@ -37,7 +37,7 @@ This site includes settings and optimizations for the following platforms:
 <ul>
   {% for code in site.data.systems %}
     <li>
-      <a href="/systems/{{ code[0] }}.html">{{ code[1].title }}</a>
+      <a href="/systems/{{ code[1].manufacturer | downcase }}/{{ code[0] }}.html">{{ code[1].title }}</a>
       (by {{ code[1].manufacturer }})
     </li>
   {% endfor %}
