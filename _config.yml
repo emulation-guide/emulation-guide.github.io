@@ -16,3 +16,20 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# # GitHub Pages overrides
+# lsi: false
+# safe: true
+# source: .
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
