@@ -1,3 +1,224 @@
 <h2>Emulator global configuration</h2>
-<br />
-[Missing]
+<table>
+    <tr>
+        <th>Config / General</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Dual Core' value='yes' %}
+                {% include parameter.html name='Enable Cheats' value='yes' %}
+                {% include parameter.html name='Allow Mismatched Region Settings' value='yes' %}
+                {% include parameter.html name='Change Discs Automatically' value='yes' %}
+                {% include parameter.html name='Speed Limit' value='100%' %}
+                {% include parameter.html name='Fallback Region' value='NTSC-U' %}
+                {% include parameter.html name='Enable usage statistics reporting' value='no' %}
+                {% include parameter.html name='Enable Savestates' value='yes' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Interface</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Screen Orientation During Emulation' value='Landscape' %}
+                {% include parameter.html name='Expand to Cutout Area' value='no' %}
+                {% include parameter.html name='Use Panic Handlers' value='yes' %}
+                {% include parameter.html name='Show On-Screen Display Messages' value='yes' %}
+                {% include parameter.html name='Change App Theme' value='Default' %}
+                {% include parameter.html name='Change Theme Mode' value='Follow System' %}
+                {% include parameter.html name='Use Black Backgrounds' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Audio</th>
+        <td>
+            <dl>
+                {% include parameter.html name='DSP Emulation Engine' value='DSP HLE' %}
+                {% include parameter.html name='Audio Stretching' value='no' %}
+                {% include parameter.html name='Audio Volume' value='100%' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Paths</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Search Subfolders for Game Files' value='no' %}
+                {% include parameter.html name='Default ISO' value='' %}
+                {% include parameter.html name='Wii NAND Root' value='[your files/Wii directory]' %}
+                {% include parameter.html name='Dump Path' value='[your files/Dump directory]' %}
+                {% include parameter.html name='Load Path' value='[your files/Load directory]' %}
+                {% include parameter.html name='Resource Pack Path' value='[your files/ResourcePacks directory]' %}
+                {% include parameter.html name='WFS Path' value='[your files/WFS directory]' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / GameCube / IPL Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Skip Main Menu' value='no' %}
+                {% include parameter.html name='System Language' value='English' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / GameCube / Device Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='GameCube Slot A Device' value='GCI Folder' %}
+                {% include parameter.html name='GameCube Slot B Device' value='Nothing' %}
+                {% include parameter.html name='GameCube Serial Port 1 Device' value='Nothing' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Wii</th>
+        <td>
+            <span class="bg-red-300 text-grey-lt-000">&nbsp;[! To be added later !]&nbsp;</span>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Advanced / CPU Options</th>
+        <td>
+            <dl>
+                {% include parameter.html name='CPU Core' value='JIT Recompiler for ARM64' %}
+                {% include parameter.html name='Enable MMU' value='no' %}
+                {% include parameter.html name='Pause on Panic' value='no' %}
+                {% include parameter.html name='Enable Write-Back Cache' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Advanced / Clock Override</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Override Emulated CPU Clock Speed' value='yes' %}
+                {% include parameter.html name='Emulated CPU Clock Speed' value='100%' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Advanced / Memory Override</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Enable Emulated Memory Size Override' value='no' %}
+                {% include parameter.html name='MEM1 Size' value='24MB' %}
+                {% include parameter.html name='MEM2 Size' value='64MB' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Advanced / GPU Options</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Synchronize GPU Thread' value='On Idle Skipping' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Advanced / Custom RTC Options</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Enable Custom RTC' value='no' %}
+                {% include parameter.html name='Set Custom RTC' value='Jan 1, 2000 12:00:00 AM' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Advanced / Misc Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Emulate Disc Speed' value='yes' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Log</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / Debug</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Config / User Data</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / General</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Enhancements</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Hacks</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Statistics</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Advanced</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / GPU Driver</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>GameCube Input</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Wii Input</th>
+        <td>
+            <dl>
+                {% include parameter.html name='' value='' %}
+            </dl>
+        </td>
+    </tr>
+</table>
