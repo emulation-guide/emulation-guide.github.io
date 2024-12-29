@@ -4,16 +4,11 @@ layout: default
 {% assign system = site.data.systems[page.code] %}
 
 <img src = "{{ page.code }}.png" />
-
 <dl>
     <dt>Manufacturer</dt>
     <dd>{{ system.manufacturer }}</dd>
     <dt>Years active</dt>
     <dd>{{ system.years.from }} - {{ system.years.to }}</dd>
 </dl>
-
 <hr />
-
-<h2>Emulator information</h2>
-<br />
 {% include emulator.html code=system.emulator %}

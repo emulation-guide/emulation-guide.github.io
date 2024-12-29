@@ -1,6 +1,7 @@
-obtainium:
-  title: Obtainium
-  href: https://github.com/ImranR98/Obtainium
+---
 googleplay:
-  title: Google Play Store
   href: https://play.google.com/store/apps/details?id=com.google.android.gms
+  title: Google Play Store
+obtainium:
+  href: https://github.com/ImranR98/Obtainium
+  title: Obtainium
