@@ -12,4 +12,8 @@ layout: default
     <dd>{{ system.years.from }} - {{ system.years.to }}</dd>
 </dl>
 
-{% include emulators/{{ system.emulator }}.html %}
+<hr />
+
+<h2>Emulator information</h2>
+<br />
+{% include emulator.html code=system.emulator %}

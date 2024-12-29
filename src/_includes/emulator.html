@@ -1,0 +1,14 @@
+{% assign emulator = site.data.emulators[include.code] %}
+{% assign downloader = site.data.downloaders[emulator.downloader] %}
+
+<img src="/assets/images/{{ include.code }}.png" class="float-left" />
+<dl>
+    <dt>Title</dt>
+    <dd>{{ emulator.title }}</dd>
+    <dt>URL</dt>
+    <dd><a href="{{ emulator.href }}" target="_blank">{{ emulator.href }}</a></dd>
+    <dt>Type</dt>
+    <dd class="text-{% if emulator.type == 'paid' %}red{% else %}green{% endif %}-300">{{ emulator.type | capitalize }}</dd>
+    <dt>Download with</dt>
+    <dd><a href="{{ downloader.href }}" target="_blank">{{ downloader.title }}</a></dd>
+</dl>
