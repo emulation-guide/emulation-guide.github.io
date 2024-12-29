@@ -1,3 +1,181 @@
 <h2>Emulator global configuration</h2>
-<br />
-[Missing]
+<table class="emulator-config">
+    <tr>
+        <th>Interface / Interface</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Fast Boot' value='yes' %}
+                {% include parameter.html name='Save State On Exit' value='yes' %}
+                {% include parameter.html name='Load Patch Codes' value='yes' %}
+                {% include parameter.html name='Apply Game Settings' value='yes' %}
+                {% include parameter.html name='Expand To Cutout Area' value='no' %}
+                {% include parameter.html name='Emulation Screen Orientation' value='Use Device Setting' %}
+                {% include parameter.html name='Display Alignment' value='Automatic' %}
+                {% include parameter.html name='Theme' value='Follow System' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Interface / On-Screen Display</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Show Messages' value='no' %}
+                {% include parameter.html name='Show FPS' value='yes' %}
+                {% include parameter.html name='Show Emulation Speed' value='yes' %}
+                {% include parameter.html name='Show Resolution' value='yes' %}
+                {% include parameter.html name='Show CPU Usage' value='yes' %}
+                {% include parameter.html name='Show GPU Usage' value='yes' %}
+                {% include parameter.html name='Show Status Indicators' value='no' %}
+                {% include parameter.html name='Show Controller Input' value='no' %}
+                {% include parameter.html name='Show Enhancements' value='no' %}
+                {% include parameter.html name='Show Frame Times' value='no' %}
+                {% include parameter.html name='OSD Scale' value='100%' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>System / Speed Control</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Emulation Speed' value='100%' %}
+                {% include parameter.html name='Fast Forward Speed' value='Unlimited' %}
+                {% include parameter.html name='Turbo Speed' value='Unlimited' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>System / Console Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Console Region' value='Auto-Detect' %}
+                {% include parameter.html name='CPU Overclocking' value='100%' %}
+                {% include parameter.html name='Enable 8MB RAM' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>System / CD-Rom Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Preload Image to RAM' value='no' %}
+                {% include parameter.html name='Apply Image Patches' value='yes' %}
+                {% include parameter.html name='CD-ROM Read Speedup' value='None' %}
+                {% include parameter.html name='CD-ROM Seek Speedup' value='None' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>System / Rewinding and Runahead</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Enable Rewinding' value='no' %}
+                {% include parameter.html name='Save Frequency' value='10.0s' %}
+                {% include parameter.html name='Save Count' value='10 slots' %}
+                {% include parameter.html name='Runahead' value='Disabled' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Rendering</th>
+        <td>
+            <dl>
+                {% include parameter.html name='GPU Renderer' value='Hardware (Vulkan)' %}
+                {% include parameter.html name='Resolution Scale' value='5x' %}
+                {% include parameter.html name='Texture Filtering' value='Bilinear' %}
+                {% include parameter.html name='True Color Rendering (24-bit)' value='yes' %}
+                {% include parameter.html name='Widescreen Hack' value='yes' %}
+                {% include parameter.html name='PGXP Geometry Correction' value='yes' %}
+                {% include parameter.html name='Use Software Renderer For Readbacks' value='yes' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Game Display</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Crop Mode' value='Only Overscan Area' %}
+                {% include parameter.html name='Aspect Ratio' value='16:9' %}
+                {% include parameter.html name='Custom Aspect Ratio' value='1:3' %}
+                {% include parameter.html name='Scaling' value='Bilinear (Sharp)' %}
+                {% include parameter.html name='Downsampling' value='Disabled' %}
+                {% include parameter.html name='Stretch To Fill' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Enhancements</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Scaled Dithering' value='yes' %}
+                {% include parameter.html name='Disable Interlacing' value='yes' %}
+                {% include parameter.html name='Force NTSC Timings' value='yes' %}
+                {% include parameter.html name='Force 4:3 For 24-Bit Display' value='no' %}
+                {% include parameter.html name='Chroma Smoothing For 24-Bit Display' value='yes' %}
+                {% include parameter.html name='PGXP Culling Correction' value='yes' %}
+                {% include parameter.html name='PGXP Texture Perspective Correction' value='yes' %}
+                {% include parameter.html name='PGXP Color Perspective Correction' value='yes' %}
+                {% include parameter.html name='PGXP Preserve Projection Precision' value='yes' %}
+                {% include parameter.html name='PGXP Depth Buffer' value='yes' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Graphics / Texture Replacement</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Enable VRAM Write Texture Replacement' value='yes' %}
+                {% include parameter.html name='Use Old MDEC Routines' value='no' %}
+                {% include parameter.html name='Preload Texture Replacements' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Audio</th>
+        <td>
+            <dl>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Post-Processing</th>
+        <td>
+            <dl>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Achievements</th>
+        <td>
+            <dl>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Game List</th>
+        <td>
+            <dl>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Memory Cards</th>
+        <td>
+            <dl>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>BIOS</th>
+        <td>
+            <dl>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Advanced</th>
+        <td>
+            <dl>
+            </dl>
+        </td>
+    </tr>
+</table>
