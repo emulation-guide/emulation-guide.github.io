@@ -130,23 +130,64 @@
         </td>
     </tr>
     <tr>
-        <th>Audio</th>
+        <th>Audio / Volume Control</th>
         <td>
             <dl>
+                {% include parameter.html name='Volume' value='100%' %}
+                {% include parameter.html name='Fast Forward Volume' value='100%' %}
+                {% include parameter.html name='Mute All Sound' value='no' %}
+                {% include parameter.html name='Mute CD Audio' value='no' %}
             </dl>
         </td>
     </tr>
     <tr>
-        <th>Post-Processing</th>
+        <th>Audio / Configuration</th>
         <td>
             <dl>
+                {% include parameter.html name='Audio Backend' value='AAudio' %}
+                {% include parameter.html name='Stretch Mode' value='Time Stretching' %}
+                {% include parameter.html name='Buffer Size' value='100ms' %}
+                {% include parameter.html name='Output Latency' value='20ms' %}
             </dl>
         </td>
     </tr>
     <tr>
-        <th>Achievements</th>
+        <th>Post-Processing / Options</th>
         <td>
             <dl>
+                {% include parameter.html name='Enable Post Processing' value='yes' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Achievements / Global Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Enable RetroAchievements' value='yes' %}
+                {% include parameter.html name='Enable Hardcore Mode' value='no' %}
+                {% include parameter.html name='Enable Encore Mode' value='no' %}
+                {% include parameter.html name='Enable Spectator Mode' value='no' %}
+                {% include parameter.html name='Show Achievement Notifications' value='yes' %}
+                {% include parameter.html name='Show Leaderboard Notifications' value='yes' %}
+                {% include parameter.html name='Enable Sound Effects' value='yes' %}
+                {% include parameter.html name='Enable In-Game Overlays' value='yes' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Achievements / Account</th>
+        <td>
+            <dl>
+                {% include parameter.html name='User Name' value='[your retroachievements.org username]' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Achievements / Advanced Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Use First Disc From Playlist' value='yes' %}
+                {% include parameter.html name='Test Unofficial Achievements' value='no' %}
             </dl>
         </td>
     </tr>
@@ -154,13 +195,33 @@
         <th>Game List</th>
         <td>
             <dl>
+                {% include parameter.html name='Scanning subdirectories' value='[your Downloads/Roms/PSX directory]' %}
             </dl>
         </td>
     </tr>
     <tr>
-        <th>Memory Cards</th>
+        <th>Memory Cards / Settings</th>
         <td>
             <dl>
+                {% include parameter.html name='Use Single Card For Sub-Images' value='yes' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Memory Cards / Memory Card 1</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Memory Card Type' value='Separate Card Per Game (Game Title)' %}
+                {% include parameter.html name='Shared Card Name' value='shared_card_1.mcd' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Memory Cards / Memory Card 2</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Memory Card Type' value='No Memory Card' %}
+                {% include parameter.html name='Shared Card Name' value='shared_card_2.mcd' %}
             </dl>
         </td>
     </tr>
@@ -168,13 +229,85 @@
         <th>BIOS</th>
         <td>
             <dl>
+                {% include parameter.html name='Import BIOS' value='[your <a href="https://github.com/gingerbeardman/PSX/raw/refs/heads/master/PSXONPSP660.BIN" target="_blank">PSXONPSP660.BIN</a> file]' %}
             </dl>
         </td>
     </tr>
     <tr>
-        <th>Advanced</th>
+        <th>BIOS / Regions</th>
         <td>
             <dl>
+                {% include parameter.html name='NTSC-J (Japan)' value='Auto-Detect' %}
+                {% include parameter.html name='NTSC-U/C (US/Canada)' value='Auto-Detect' %}
+                {% include parameter.html name='PAL (Europe, Australia)' value='Auto-Detect' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Advanced / Global Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Apply Compatibility Settings' value='yes' %}
+                {% include parameter.html name='Disable All Enhancements' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Advanced / Display Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Video Sync' value='yes' %}
+                {% include parameter.html name='Sync To Host Refresh Rate' value='yes' %}
+                {% include parameter.html name='Optimal Frame Pacing' value='yes' %}
+                {% include parameter.html name='Presented Frame Limit' value='60 FPS' %}
+                {% include parameter.html name='Show VRAM' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Advanced / CD-ROM Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Async Readahead' value='8 Sectors' %}
+                {% include parameter.html name='Region Check' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Advanced / CPU Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='CPU Execution Mode' value='New Recompiler' %}
+                {% include parameter.html name='CPU Recompiler ICache' value='yes' %}
+                {% include parameter.html name='CPU Recompiler Block Linking' value='yes' %}
+                {% include parameter.html name='CPU Recompiler Fast Memory Access' value='MMap' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Advanced / GPU Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Multisample Antialiasing' value='8x SSAA' %}
+                {% include parameter.html name='Threaded GPU Rendering' value='yes' %}
+                {% include parameter.html name='Threaded GPU Presentation' value='yes' %}
+                {% include parameter.html name='PGXP Vertex Cache' value='yes' %}
+                {% include parameter.html name='PGXP CPU Mode' value='no' %}
+                {% include parameter.html name='Use Debug Host GPU Device' value='no' %}
+                {% include parameter.html name='Disable Dual-Source Blending' value='no' %}
+                {% include parameter.html name='Disable Texture Buffers' value='no' %}
+                {% include parameter.html name='Disable Texture Copy To Self' value='no' %}
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>Advanced / Logging Settings</th>
+        <td>
+            <dl>
+                {% include parameter.html name='Logging Level' value='Information' %}
+                {% include parameter.html name='Log To File' value='no' %}
+                {% include parameter.html name='Log To Logcat' value='no' %}
+                {% include parameter.html name='Enable TTY Output' value='no' %}
             </dl>
         </td>
     </tr>
