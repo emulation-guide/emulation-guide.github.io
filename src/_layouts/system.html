@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
+{% assign system = site.data.systems[page.code] %}
+
 <img src = "{{ page.code }}.png" />
 
 <dl>
     <dt>Manufacturer</dt>
-    <dd>{{ site.data.systems[page.code].manufacturer }}</dd>
+    <dd>{{ system.manufacturer }}</dd>
     <dt>Years active</dt>
-    <dd>{{ site.data.systems[page.code].years.from }} - {{ site.data.systems[page.code].years.to }}</dd>
+    <dd>{{ system.years.from }} - {{ system.years.to }}</dd>
 </dl>
 
-{{ content }}
+{% include emulators/{{ system.emulator }}.html %}

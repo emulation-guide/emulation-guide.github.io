@@ -1,0 +1,37 @@
+---
+cemu:
+  href: https://github.com/SSimco/Cemu
+  title: Cemu
+  type: free
+dolphin:
+  href: https://f-droid.org/en/packages/org.dolphinemu.dolphinemu/
+  title: Dolphin Emulator
+  type: free
+duckstation:
+  href: https://www.duckstation.org/android/duckstation-android.apk
+  title: DuckStation
+  type: free
+m64plus:
+  href: https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita.pro
+  title: M64Plus FZ Pro Emulator
+  type: paid
+nethersx2:
+  href: https://github.com/masterjg/nethersx2-builds
+  title: NetherSX2
+  type: free
+ppsspp:
+  href: https://f-droid.org/en/packages/org.ppsspp.ppsspp/
+  title: PPSSPP
+  type: free
+vita3k:
+  href: https://github.com/Vita3K/Vita3K-Android
+  title: Vita3K
+  type: free
+winlator:
+  href: https://github.com/coffincolors/winlator
+  title: Winlator.glibcmod
+  type: free
+yabasanshiro2:
+  href: https://play.google.com/store/apps/details?id=org.devmiyax.yabasanshioro2.pro
+  title: YabaSanshiro 2 Pro
+  type: paid
