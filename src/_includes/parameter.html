@@ -1,0 +1,8 @@
+<dt>{{ include.name }}</dt>
+{% if include.value == 'yes' %}
+<dd>:heavy_check_mark:</dd>
+{% elsif include.value == 'no' %}
+<dd>:x:</dd>
+{% else %}
+<dd><span class="label-yellow">&nbsp;{{ include.value }}&nbsp;</span></dd>
+{% endif %}
