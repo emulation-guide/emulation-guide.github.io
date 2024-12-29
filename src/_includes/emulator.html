@@ -2,13 +2,12 @@
 {% assign downloader = site.data.downloaders[emulator.downloader] %}
 
 <h2>Emulator information</h2>
-<br />
-<img src="/assets/img/{{ include.code }}.png" class="float-left" style="border-radius: 50%" />
+<img src="/assets/img/{{ include.code }}.png" class="d-block mx-auto" style="border-radius: 50%;" />
 <dl>
     <dt>Title</dt>
     <dd>{{ emulator.title }}</dd>
     <dt>URL</dt>
-    <dd><a href="{{ emulator.href }}" target="_blank">{{ emulator.href }}</a></dd>
+    <dd><a href="{{ emulator.href }}" target="_blank" style="overflow-wrap: anywhere;">{{ emulator.href }}</a></dd>
     <dt>Type</dt>
     <dd class="text-{% if emulator.type == 'paid' %}red{% else %}green{% endif %}-300">{{ emulator.type | capitalize }}</dd>
     <dt>Downloader</dt>

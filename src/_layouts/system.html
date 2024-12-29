@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% assign system = site.data.systems[page.code] %}
+{% assign system=site.data.systems[page.code] %}
 
-<img src = "{{ page.code }}.png" />
+<img src="{{ page.code }}.png" class="d-block mx-auto" />
 <dl>
     <dt>Manufacturer</dt>
     <dd>{{ system.manufacturer }}</dd>
