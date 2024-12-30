@@ -160,6 +160,17 @@ Controller Settings / Touchscreen:
   View:
     Touchscreen Controller View: None
     Touchscreen Controller Port: Port 1
+  Settings:
+    Overlay Opacity: 0%
+    Auto-Hide Delay: 0s
+    Auto-Hide Touchscreen Controller: true
+    Bind To Right Stick: false
+    Touch Gliding: false
+    Vibrate On Press: false
+    Enable Game Vibration: true
+    Vibration Update Frequency: 10ms
+    Swipe Horizontal Sensitivity: 8.0x
+    Swipe Vertical Sensitivity: 8.0x
 Controller Settings / Port 1:
   _:
     Controller Type: Analog Controller (DualShock)
