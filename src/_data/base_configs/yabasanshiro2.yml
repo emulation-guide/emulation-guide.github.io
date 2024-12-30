@@ -1,10 +1,9 @@
-Game Select Screen:
-  _:
+Preferences / Settings:
+  Game Select Screen:
     Force Android TV mode: true
     Select Game Directory: "[your Roms/SATURN directory]"
     Install Location: SD card
-General:
-  _:
+  General:
     Bios: built-in bios
     Cartridge: 32 Mbit Dram
     Extend Internal Memory to 8MByte: true
@@ -12,8 +11,7 @@ General:
     Use CPU affinity: false
     Use SH2 cache: true
     Enable Auto State Save: true
-Graphics:
-  _:
+  Graphics:
     Video Core: Vulkan
     FPS: true
     Frameskip: true
@@ -27,11 +25,9 @@ Graphics:
     RBG Resolution: 1080p
     Use Compute Shader: true
     Hide Status bar and Navigation bar: false
-Player1 Input Device:
-  _:
+  Player1 Input Device:
     Choose: Xbox Wireless Controller
-Sound:
-  _:
+  Sound:
     Audio output: true
     Sound Engine: Current
     Sound time synchronization mode: CPU time

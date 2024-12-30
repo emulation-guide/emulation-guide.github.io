@@ -1,4 +1,4 @@
-Config / General:
+Settings / Config / General:
   _:
     Dual Core: true
     Enable Cheats: true
@@ -8,7 +8,7 @@ Config / General:
     Fallback Region: NTSC-U
     Enable usage statistics reporting: false
     Enable Savestates: true
-Config / Interface:
+Settings / Config / Interface:
   _:
     Screen Orientation During Emulation: Landscape
     Expand to Cutout Area: false
@@ -17,12 +17,12 @@ Config / Interface:
     Change App Theme: Default
     Change Theme Mode: Follow System
     Use Black Backgrounds: false
-Config / Audio:
+Settings / Config / Audio:
   _:
     DSP Emulation Engine: DSP HLE
     Audio Stretching: false
     Audio Volume: 100%
-Config / Paths:
+Settings / Config / Paths:
   _:
     Search Subfolders for Game Files: false
     Default ISO: 
@@ -31,7 +31,7 @@ Config / Paths:
     Load Path: "[your files/Load directory]"
     Resource Pack Path: "[your files/ResourcePacks directory]"
     WFS Path: "[your files/WFS directory]"
-Config / GameCube:
+Settings / Config / GameCube:
   IPL Settings:
     Skip Main Menu: false
     System Language: English
@@ -39,8 +39,8 @@ Config / GameCube:
     GameCube Slot A Device: GCI Folder
     GameCube Slot B Device: Nothing
     GameCube Serial Port 1 Device: Nothing
-Config / Wii:
-Config / Advanced:
+Settings / Config / Wii:
+Settings / Config / Advanced:
   CPU Options:
     CPU Core: JIT Recompiler for ARM64
     Enable MMU: false
@@ -60,7 +60,7 @@ Config / Advanced:
     Set Custom RTC: Jan 1, 2000 12:00:00 AM
   Misc Settings:
     Emulate Disc Speed: true
-Config / Log:
+Settings / Config / Log:
   _:
     Write Logs to File: false
     Verbosity: Notice
@@ -118,7 +118,7 @@ Config / Log:
     Video Backend: false
     WII IPC: false
     Wii Remote: false
-Config / Debug:
+Settings / Config / Debug:
   _:
     Disable Fastmem: false
     Disable Fastmem Arena: false
@@ -136,13 +136,13 @@ Config / Debug:
     Jit System Registers Disabled: false
     Jit Branch Disabled: false
     Jit Register Cache Disabled: false
-Graphics Settings / General:
+Settings / Graphics Settings / General:
   _:
     Video Backend: Vulkan
     Shader Compilation Mode: Hybrid Ubershaders
     Compile Shaders Before Starting: true
     Aspect Ratio: Force 16:9
-Graphics Settings / Enhancements:
+Settings / Graphics Settings / Enhancements:
   _:
     Internal Resolution: 3x Native
     Full-scene Anti-aliasing: 8x
@@ -167,7 +167,7 @@ Graphics Settings / Enhancements:
     Depth: 20%
     Convergence: 100%
     Swap Eyes: false
-Graphics Settings / Hacks:
+Settings / Graphics Settings / Hacks:
   Embedded Frame Buffer:
     Skip EFB Access from CPU: true
     Ignore Format Changes: true
@@ -186,7 +186,7 @@ Graphics Settings / Hacks:
     Vertex Rounding: true
     VBI Skip: true
     Save Texture Cache to State: true
-Graphics Settings / Statistics:
+Settings / Graphics Settings / Statistics:
   _:
     Show FPS: true
     Show Frame Times: false
@@ -197,7 +197,7 @@ Graphics Settings / Statistics:
     Show Speed Color: true
     Log Render Time to File: false
     Performance Sample Window: 1000ms
-Graphics Settings / Advanced:
+Settings / Graphics Settings / Advanced:
   Graphics Mods and Custom Textures:
     Graphics Mods: true
     Load Custom Textures: true
@@ -224,10 +224,10 @@ Graphics Settings / Advanced:
     Dump EFB Target: false
     Dump XFB Target: false
     Disable EFB VRAM Copies: false
-Graphics Settings / GPU Driver:
+Settings / Graphics Settings / GPU Driver:
   _:
     Install driver: "[your <a href='https://github.com/K11MCH1/AdrenoToolsDrivers/releases/download/v24.3.0_r9/turnip_v24.3.0_R9v2.zip' target='_blank'>turnip_v24.3.0_R9v2.zip</a> file]"
-GameCube Input:
+Settings / GameCube Input:
   _:
     GameCube Controller 1: Standard Controller
     GameCube Controller 2: None
@@ -279,4 +279,4 @@ GameCube Input:
     Motor: Android/0/Device Sensors:Motor 0
   GameCube Controller 1 / Options:
     Always Connected: true
-Wii Input:
+Settings / Wii Input:
