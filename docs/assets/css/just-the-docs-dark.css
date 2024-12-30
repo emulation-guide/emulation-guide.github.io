@@ -7621,7 +7621,7 @@ div.opaque {
 }
 @media (min-width: 768px) {
   .emulator-parameters > .table-wrapper {
-    max-width: 50%;
+    max-width: calc(50% - 0.5rem);
   }
 }
 .emulator-parameters > .table-wrapper dd {
