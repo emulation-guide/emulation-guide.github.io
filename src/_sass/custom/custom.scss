@@ -1,0 +1,21 @@
+.emulator-parameters {
+    @extend .d-flex;
+    @extend .flex-justify-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    > .table-wrapper {
+        flex-basis: fit-content;
+        flex-grow: 1;
+        flex-shrink: 0;
+        @media (min-width: 768px) {
+            max-width: 50%;
+        }
+        dd {
+            white-space: nowrap;
+        }
+        dl {
+            grid-template: inherit;
+        }
+    }
+}
