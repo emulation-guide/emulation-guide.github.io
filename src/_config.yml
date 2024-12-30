@@ -1,7 +1,6 @@
 exclude:
   - jekyll.*.sh
   - LICENSE
-  - old
 
 defaults:
   - scope:

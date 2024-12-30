@@ -58,13 +58,164 @@ Config / Log:
   Write Logs to File: false
   Verbosity: Notice
 Config / Log / Log Types:
+  Audio Interface: false
+  Action Replay: false
+  Audio Emulator: false
+  Boot: false
+  Controller Interface: false
+  Common: false
+  Dolphin Console: false
+  Core: false
+  Command Processor: false
+  Disc IO: false
+  DSP Interface: false
+  DSP HLE: false
+  DSP LLE: false
+  DSP Mails: false
+  DVD Interface: false
+  Expansion Interface: false
+  FrameDump: false
+  File Monitor: false
+  GDB Stub: false
+  GatherPipe FIFO: false
+  OSHLE: false
+  High-Speed Port (HSP): false
+  Host GPU: false
+  IOS: false
+  IOS - Drive Interface: false
+  IOS - ETicket Services: false
+  IOS - Filesystem Services: false
+  IOS - Network: false
+  IOS - SDIO: false
+  IOS - SSL: false
+  IOS - State Transition Manager: false
+  IOS - USB: false
+  IOS - WiiConnect24: false
+  IOS - WFS: false
+  IOS - Wii Remote: false
+  JIT Dynamic Recompiler: false
+  Master Log: false
+  Memory Interface & Memory Map: false
+  Memory Card Manager: false
+  Netplay: false
+  OSReport EXI: false
+  OSReport HLE: false
+  Pixel Engine: false
+  Processor Interface: false
+  PowerPC IBM CPU: false
+  Achievements: false
+  Serial Interface: false
+  Serial Port 1: false
+  Symbols: false
+  Video Interface: false
+  Video Backend: false
+  WII IPC: false
+  Wii Remote: false
 Config / Debug:
-Config / User Data:
-Graphics / General:
-Graphics / Enhancements:
-Graphics / Hacks:
-Graphics / Statistics:
-Graphics / Advanced:
-Graphics / GPU Driver:
+  Disable Fastmem: false
+  Disable Fastmem Arena: false
+  Disable Large Entry Points Map: false
+Config / Debug / Jit Profiling:
+  Enable Jit Block Profiling: false
+Config / Debug / Jit:
+  Jit Disabled: false
+  Jit Load Store Disabled: false
+  Jit Load Store Floating Point Disabled: false
+  Jit Load Store Paired Disabled: false
+  Jit Floating Point Disabled: false
+  Jit Integer Disabled: false
+  Jit Paired Disabled: false
+  Jit System Registers Disabled: false
+  Jit Branch Disabled: false
+  Jit Register Cache Disabled: false
+Graphics Settings / General:
+  Video Backend: Vulkan
+  Shader Compilation Mode: Hybrid Ubershaders
+  Compile Shaders Before Starting: true
+  Aspect Ratio: Force 16:9
+Graphics Settings / Enhancements:
+  Internal Resolution: 3x Native
+  Full-scene Anti-aliasing: 8x
+  Anisotropic Filtering: 16x
+  Texture Filtering: Force Linear
+  Post-Processing Effect: Off
+  Scaled EFB Copy: true
+  Per-Pixel Lighting: true
+  Force 24-Bit Color: true
+  Disable Fog: false
+  Disable Copy Filter: true
+  Arbitrary Mipmap Detection: true
+  Widescreen Hack: true
+Graphics Settings / Enhancements / Color Correction / Color Space:
+  Correct Color Space: true
+  Game Color Space: NTSC-M
+Graphics Settings / Enhancements / Color Correction / Gamma:
+  Game Gamma: 2.35
+  Correct SDR Gamma: true
+Graphics Settings / Enhancements / Stereoscopy:
+  Stereoscopy Mode: Off
+  Depth: 20%
+  Convergence: 100%
+  Swap Eyes: false
+Graphics Settings / Hacks / Embedded Frame Buffer:
+  Skip EFB Access from CPU: true
+  Ignore Format Changes: true
+  Store EFB Copies to Texture Only: true
+  Defer EFB Copies to RAM: true
+Graphics Settings / Hacks / Texture Cache:
+  Texture Cache Accuracy: Safe
+  GPU Texture Decoding: true
+Graphics Settings / Hacks / External Frame Buffer:
+  Store XFB Copies to Texture Only: true
+  Immediately Present XFB: true
+  Skip Presenting Duplicate Frames: true
+Graphics Settings / Hacks / Other:
+  Fast Depth Calculation: true
+  Disable Bounding Box: true
+  Vertex Rounding: true
+  VBI Skip: true
+  Save Texture Cache to State: true
+Graphics Settings / Statistics:
+  Show FPS: true
+  Show Frame Times: false
+  Show VPS: false
+  Show VBlank Times: false
+  Show Performance Graphs: false
+  Show % Speed: true
+  Show Speed Color: true
+  Log Render Time to File: false
+  Performance Sample Window: 1000ms
+Graphics Settings / Advanced / Graphics Mods and Custom Textures:
+  Graphics Mods: true
+  Load Custom Textures: true
+  Prefetch Custom Textures: false
+  Dump Textures: false
+  Dump Base Textures: false
+  Dump Mip Maps: false
+Graphics Settings / Advanced / Misc:
+  Crop: false
+  Enable Progressive Scan: true
+  Backend Multithreading: true
+  Prefer VS for Point/Line Expansion: true
+  Cull Vertices on the CPU: true
+  Defer EFB Cache Invalidation: true
+  Manual Texture Sampling: false
+Graphics Settings / Advanced / Frame Dumping:
+  Dump Frames at Internal Resolution: false
+  PNG Compression Level: 6
+Graphics Settings / Advanced / Debugging:
+  Enable Wireframe: false
+  Show Statistics: false
+  Texture Format Overlay: false
+  Enable API Validation Layers: false
+  Dump EFB Target: false
+  Dump XFB Target: false
+  Disable EFB VRAM Copies: false
+Graphics Settings / GPU Driver:
+  Install driver: "[your <a href='https://github.com/K11MCH1/AdrenoToolsDrivers/releases/download/v24.3.0_r9/turnip_v24.3.0_R9v2.zip' target='_blank'>turnip_v24.3.0_R9v2.zip</a> file]"
 GameCube Input:
+  GameCube Controller 1: Standard Controller
+  GameCube Controller 2: None
+  GameCube Controller 3: None
+  GameCube Controller 4: None
 Wii Input:
