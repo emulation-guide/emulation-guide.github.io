@@ -27,6 +27,25 @@ Preferences / Settings:
     Hide Status bar and Navigation bar: false
   Player1 Input Device:
     Choose: Xbox Wireless Controller
+    Edit Key Map: |
+      Up: DPAD Up<br>
+      &nbsp;Down: DPAD Down<br>
+      &nbsp;Left: DPAD Left<br>
+      &nbsp;Right: DPAD Right<br>
+      &nbsp;L Trigger: L2<br>
+      &nbsp;R Trigger: R2<br>
+      &nbsp;Start: Start<br>
+      &nbsp;A: Y<br>
+      &nbsp;B: B<br>
+      &nbsp;C: A<br>
+      &nbsp;X: R1<br>
+      &nbsp;Y: X<br>
+      &nbsp;Z: L1<br>
+      &nbsp;Analog X: Left Analog Right<br>
+      &nbsp;Analog Y: Left Analog Up<br>
+      &nbsp;Analog L Trigger: L3<br>
+      &nbsp;Analog R Trigger: R3<br>
+      &nbsp;Menu: Back
   Sound:
     Audio output: true
     Sound Engine: Current
