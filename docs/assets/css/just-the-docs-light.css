@@ -7350,20 +7350,20 @@ div.opaque {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-.emulator-parameters > .table-wrapper {
+.emulator-parameters > div {
   flex-basis: fit-content;
   flex-grow: 1;
   flex-shrink: 0;
 }
 @media (min-width: 768px) {
-  .emulator-parameters > .table-wrapper {
+  .emulator-parameters > div {
     max-width: calc(50% - 0.5rem);
   }
 }
-.emulator-parameters > .table-wrapper dd {
+.emulator-parameters > div dd {
   white-space: nowrap;
 }
-.emulator-parameters > .table-wrapper dl {
+.emulator-parameters > div dl {
   grid-template: inherit;
 }
 

@@ -1,33 +1,38 @@
 Game Select Screen:
-  Force Android TV mode: true
-  Select Game Directory: "[your Roms/SATURN directory]"
-  Install Location: SD card
+  _:
+    Force Android TV mode: true
+    Select Game Directory: "[your Roms/SATURN directory]"
+    Install Location: SD card
 General:
-  Bios: built-in bios
-  Cartridge: 32 Mbit Dram
-  Extend Internal Memory to 8MByte: true
-  Cpu Core: New Dynamic Recompiler
-  Use CPU affinity: false
-  Use SH2 cache: true
-  Enable Auto State Save: true
+  _:
+    Bios: built-in bios
+    Cartridge: 32 Mbit Dram
+    Extend Internal Memory to 8MByte: true
+    Cpu Core: New Dynamic Recompiler
+    Use CPU affinity: false
+    Use SH2 cache: true
+    Enable Auto State Save: true
 Graphics:
-  Video Core: Vulkan
-  FPS: true
-  Frameskip: true
-  Speed Limit: Normal
-  Lock Landscape Mode: true
-  90 degree rotation: false
-  Filter: None
-  Polygon Generation Type: GPU Tessellation
-  Rendering Resolution: 1080p
-  Aspect Ratio: Original
-  RBG Resolution: 1080p
-  Use Compute Shader: true
-  Hide Status bar and Navigation bar: false
+  _:
+    Video Core: Vulkan
+    FPS: true
+    Frameskip: true
+    Speed Limit: Normal
+    Lock Landscape Mode: true
+    90 degree rotation: false
+    Filter: None
+    Polygon Generation Type: GPU Tessellation
+    Rendering Resolution: 1080p
+    Aspect Ratio: Original
+    RBG Resolution: 1080p
+    Use Compute Shader: true
+    Hide Status bar and Navigation bar: false
 Player1 Input Device:
-  Choose: Xbox Wireless Controller
+  _:
+    Choose: Xbox Wireless Controller
 Sound:
-  Audio output: true
-  Sound Engine: Current
-  Sound time synchronization mode: CPU time
-  Scsp synchrinization count per a frame: 4
+  _:
+    Audio output: true
+    Sound Engine: Current
+    Sound time synchronization mode: CPU time
+    Scsp synchrinization count per a frame: 4

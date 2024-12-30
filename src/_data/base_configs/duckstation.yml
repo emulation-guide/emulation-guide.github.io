@@ -1,143 +1,153 @@
-Interface / Interface:
-  Fast Boot: true
-  Save State On Exit: true
-  Load Patch Codes: true
-  Apply Game Settings: true
-  Expand To Cutout Area: false
-  Emulation Screen Orientation: Use Device Setting
-  Display Alignment: Automatic
-  Theme: Follow System
-Interface / On-Screen Display:
-  Show Messages: false
-  Show FPS: true
-  Show Emulation Speed: true
-  Show Resolution: true
-  Show CPU Usage: true
-  Show GPU Usage: true
-  Show Status Indicators: false
-  Show Controller Input: false
-  Show Enhancements: false
-  Show Frame Times: false
-  OSD Scale: 100%
-System / Speed Control:
-  Emulation Speed: 100%
-  Fast Forward Speed: Unlimited
-  Turbo Speed: Unlimited
-System / Console Settings:
-  Console Region: Auto-Detect
-  CPU Overclocking: 100%
-  Enable 8MB RAM: false
-System / CD-Rom Settings:
-  Preload Image to RAM: false
-  Apply Image Patches: true
-  CD-ROM Read Speedup: None
-  CD-ROM Seek Speedup: None
-System / Rewinding and Runahead:
-  Enable Rewinding: false
-  Save Frequency: 10.0s
-  Save Count: 10 slots
-  Runahead: Disabled
-Graphics / Rendering:
-  GPU Renderer: Hardware (Vulkan)
-  Resolution Scale: 5x
-  Texture Filtering: Bilinear
-  True Color Rendering (24-bit): true
-  Widescreen Hack: true
-  PGXP Geometry Correction: true
-  Use Software Renderer For Readbacks: true
-Graphics / Game Display:
-  Crop Mode: Only Overscan Area
-  Aspect Ratio: 16:9
-  Custom Aspect Ratio: 1:3
-  Scaling: Bilinear (Sharp)
-  Downsampling: Disabled
-  Stretch To Fill: false
-Graphics / Enhancements:
-  Scaled Dithering: true
-  Disable Interlacing: true
-  Force NTSC Timings: true
-  Force 4:3 For 24-Bit Display: false
-  Chroma Smoothing For 24-Bit Display: true
-  PGXP Culling Correction: true
-  PGXP Texture Perspective Correction: true
-  PGXP Color Perspective Correction: true
-  PGXP Preserve Projection Precision: true
-  PGXP Depth Buffer: true
-Graphics / Texture Replacement:
-  Enable VRAM Write Texture Replacement: true
-  Use Old MDEC Routines: false
-  Preload Texture Replacements: false
-Audio / Volume Control:
-  Volume: 100%
-  Fast Forward Volume: 100%
-  Mute All Sound: false
-  Mute CD Audio: false
-Audio / Configuration:
-  Audio Backend: AAudio
-  Stretch Mode: Time Stretching
-  Buffer Size: 100ms
-  Output Latency: 20ms
-Post-Processing / Options:
-  Enable Post Processing: true
-Achievements / Global Settings:
-  Enable RetroAchievements: true
-  Enable Hardcore Mode: false
-  Enable Encore Mode: false
-  Enable Spectator Mode: false
-  Show Achievement Notifications: true
-  Show Leaderboard Notifications: true
-  Enable Sound Effects: true
-  Enable In-Game Overlays: true
-Achievements / Account:
-  User Name: "[your retroachievements.org username]"
-Achievements / Advanced Settings:
-  Use First Disc From Playlist: true
-  Test Unofficial Achievements: false
+Interface:
+  Interface:
+    Fast Boot: true
+    Save State On Exit: true
+    Load Patch Codes: true
+    Apply Game Settings: true
+    Expand To Cutout Area: false
+    Emulation Screen Orientation: Use Device Setting
+    Display Alignment: Automatic
+    Theme: Follow System
+  On-Screen Display:
+    Show Messages: false
+    Show FPS: true
+    Show Emulation Speed: true
+    Show Resolution: true
+    Show CPU Usage: true
+    Show GPU Usage: true
+    Show Status Indicators: false
+    Show Controller Input: false
+    Show Enhancements: false
+    Show Frame Times: false
+    OSD Scale: 100%
+System:
+  Speed Control:
+    Emulation Speed: 100%
+    Fast Forward Speed: Unlimited
+    Turbo Speed: Unlimited
+  Console Settings:
+    Console Region: Auto-Detect
+    CPU Overclocking: 100%
+    Enable 8MB RAM: false
+  CD-Rom Settings:
+    Preload Image to RAM: false
+    Apply Image Patches: true
+    CD-ROM Read Speedup: None
+    CD-ROM Seek Speedup: None
+  Rewinding and Runahead:
+    Enable Rewinding: false
+    Save Frequency: 10.0s
+    Save Count: 10 slots
+    Runahead: Disabled
+Graphics:
+  Rendering:
+    GPU Renderer: Hardware (Vulkan)
+    Resolution Scale: 5x
+    Texture Filtering: Bilinear
+    True Color Rendering (24-bit): true
+    Widescreen Hack: true
+    PGXP Geometry Correction: true
+    Use Software Renderer For Readbacks: true
+  Game Display:
+    Crop Mode: Only Overscan Area
+    Aspect Ratio: 16:9
+    Custom Aspect Ratio: 1:3
+    Scaling: Bilinear (Sharp)
+    Downsampling: Disabled
+    Stretch To Fill: false
+  Enhancements:
+    Scaled Dithering: true
+    Disable Interlacing: true
+    Force NTSC Timings: true
+    Force 4:3 For 24-Bit Display: false
+    Chroma Smoothing For 24-Bit Display: true
+    PGXP Culling Correction: true
+    PGXP Texture Perspective Correction: true
+    PGXP Color Perspective Correction: true
+    PGXP Preserve Projection Precision: true
+    PGXP Depth Buffer: true
+  Texture Replacement:
+    Enable VRAM Write Texture Replacement: true
+    Use Old MDEC Routines: false
+    Preload Texture Replacements: false
+Audio:
+  Volume Control:
+    Volume: 100%
+    Fast Forward Volume: 100%
+    Mute All Sound: false
+    Mute CD Audio: false
+  Configuration:
+    Audio Backend: AAudio
+    Stretch Mode: Time Stretching
+    Buffer Size: 100ms
+    Output Latency: 20ms
+Post-Processing:
+  Options:
+    Enable Post Processing: true
+Achievements:
+  Global Settings:
+    Enable RetroAchievements: true
+    Enable Hardcore Mode: false
+    Enable Encore Mode: false
+    Enable Spectator Mode: false
+    Show Achievement Notifications: true
+    Show Leaderboard Notifications: true
+    Enable Sound Effects: true
+    Enable In-Game Overlays: true
+  Account:
+    User Name: "[your retroachievements.org username]"
+  Advanced Settings:
+    Use First Disc From Playlist: true
+    Test Unofficial Achievements: false
 Game List:
-  Scanning subdirectories: "[your Roms/PSX directory]"
-Memory Cards / Settings:
-  Use Single Card For Sub-Images: true
-Memory Cards / Memory Card 1:
-  Memory Card Type: Separate Card Per Game (Game Title)
-  Shared Card Name: shared_card_1.mcd
-Memory Cards / Memory Card 2:
-  Memory Card Type: No Memory Card
-  Shared Card Name: shared_card_2.mcd
+  _:
+    Scanning subdirectories: "[your Roms/PSX directory]"
+Memory Cards:
+  Settings:
+    Use Single Card For Sub-Images: true
+  Memory Card 1:
+    Memory Card Type: Separate Card Per Game (Game Title)
+    Shared Card Name: shared_card_1.mcd
+  Memory Card 2:
+    Memory Card Type: No Memory Card
+    Shared Card Name: shared_card_2.mcd
 BIOS:
-  Import BIOS: "[your <a href='https://github.com/gingerbeardman/PSX/raw/refs/heads/master/PSXONPSP660.BIN' target='_blank'>PSXONPSP660.BIN</a> file]"
-BIOS / Regions:
-  NTSC-J (Japan): Auto-Detect
-  NTSC-U/C (US/Canada): Auto-Detect
-  PAL (Europe, Australia): Auto-Detect
-Advanced / Global Settings:
-  Apply Compatibility Settings: true
-  Disable All Enhancements: false
-Advanced / Display Settings:
-  Video Sync: true
-  Sync To Host Refresh Rate: true
-  Optimal Frame Pacing: true
-  Presented Frame Limit: 60 FPS
-  Show VRAM: false
-Advanced / CD-ROM Settings:
-  Async Readahead: 8 Sectors
-  Region Check: false
-Advanced / CPU Settings:
-  CPU Execution Mode: New Recompiler
-  CPU Recompiler ICache: true
-  CPU Recompiler Block Linking: true
-  CPU Recompiler Fast Memory Access: MMap
-Advanced / GPU Settings:
-  Multisample Antialiasing: 8x SSAA
-  Threaded GPU Rendering: true
-  Threaded GPU Presentation: true
-  PGXP Vertex Cache: true
-  PGXP CPU Mode: false
-  Use Debug Host GPU Device: false
-  Disable Dual-Source Blending: false
-  Disable Texture Buffers: false
-  Disable Texture Copy To Self: false
-Advanced / Logging Settings:
-  Logging Level: Information
-  Log To File: false
-  Log To Logcat: false
-  Enable TTY Output: false
+  _:
+    Import BIOS: "[your <a href='https://github.com/gingerbeardman/PSX/raw/refs/heads/master/PSXONPSP660.BIN' target='_blank'>PSXONPSP660.BIN</a> file]"
+  Regions:
+    NTSC-J (Japan): Auto-Detect
+    NTSC-U/C (US/Canada): Auto-Detect
+    PAL (Europe, Australia): Auto-Detect
+Advanced:
+  Global Settings:
+    Apply Compatibility Settings: true
+    Disable All Enhancements: false
+  Display Settings:
+    Video Sync: true
+    Sync To Host Refresh Rate: true
+    Optimal Frame Pacing: true
+    Presented Frame Limit: 60 FPS
+    Show VRAM: false
+  CD-ROM Settings:
+    Async Readahead: 8 Sectors
+    Region Check: false
+  CPU Settings:
+    CPU Execution Mode: New Recompiler
+    CPU Recompiler ICache: true
+    CPU Recompiler Block Linking: true
+    CPU Recompiler Fast Memory Access: MMap
+  GPU Settings:
+    Multisample Antialiasing: 8x SSAA
+    Threaded GPU Rendering: true
+    Threaded GPU Presentation: true
+    PGXP Vertex Cache: true
+    PGXP CPU Mode: false
+    Use Debug Host GPU Device: false
+    Disable Dual-Source Blending: false
+    Disable Texture Buffers: false
+    Disable Texture Copy To Self: false
+  Logging Settings:
+    Logging Level: Information
+    Log To File: false
+    Log To Logcat: false
+    Enable TTY Output: false
