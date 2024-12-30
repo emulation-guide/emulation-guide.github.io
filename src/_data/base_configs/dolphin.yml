@@ -1,0 +1,70 @@
+Config / General:
+  Dual Core: true
+  Enable Cheats: true
+  Allow Mismatched Region Settings: true
+  Change Discs Automatically: true
+  Speed Limit: 100%
+  Fallback Region: NTSC-U
+  Enable usage statistics reporting: false
+  Enable Savestates: true
+Config / Interface:
+  Screen Orientation During Emulation: Landscape
+  Expand to Cutout Area: false
+  Use Panic Handlers: true
+  Show On-Screen Display Messages: true
+  Change App Theme: Default
+  Change Theme Mode: Follow System
+  Use Black Backgrounds: false
+Config / Audio:
+  DSP Emulation Engine: DSP HLE
+  Audio Stretching: false
+  Audio Volume: 100%
+Config / Paths:
+  Search Subfolders for Game Files: false
+  Default ISO: 
+  Wii NAND Root: "[your files/Wii directory]"
+  Dump Path: "[your files/Dump directory]"
+  Load Path: "[your files/Load directory]"
+  Resource Pack Path: "[your files/ResourcePacks directory]"
+  WFS Path: "[your files/WFS directory]"
+Config / GameCube / IPL Settings:
+  Skip Main Menu: false
+  System Language: English
+Config / GameCube / Device Settings:
+  GameCube Slot A Device: GCI Folder
+  GameCube Slot B Device: Nothing
+  GameCube Serial Port 1 Device: Nothing
+Config / Wii:
+Config / Advanced / CPU Options:
+  CPU Core: JIT Recompiler for ARM64
+  Enable MMU: false
+  Pause on Panic: false
+  Enable Write-Back Cache: false
+Config / Advanced / Clock Override:
+  Override Emulated CPU Clock Speed: true
+  Emulated CPU Clock Speed: 100%
+Config / Advanced / Memory Override:
+  Enable Emulated Memory Size Override: false
+  MEM1 Size: 24MB
+  MEM2 Size: 64MB
+Config / Advanced / GPU Options:
+  Synchronize GPU Thread: On Idle Skipping
+Config / Advanced / Custom RTC Options:
+  Enable Custom RTC: false
+  Set Custom RTC: Jan 1, 2000 12:00:00 AM
+Config / Advanced / Misc Settings:
+  Emulate Disc Speed: true
+Config / Log:
+  Write Logs to File: false
+  Verbosity: Notice
+Config / Log / Log Types:
+Config / Debug:
+Config / User Data:
+Graphics / General:
+Graphics / Enhancements:
+Graphics / Hacks:
+Graphics / Statistics:
+Graphics / Advanced:
+Graphics / GPU Driver:
+GameCube Input:
+Wii Input:

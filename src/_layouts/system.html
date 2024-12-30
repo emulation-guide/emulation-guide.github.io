@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign system=site.data.systems[page.code] %}
+{% assign base_config=site.data.base_configs[system.emulator] %}
 
 <img src="{{ page.code }}.png" class="d-block mx-auto" />
 <dl>
@@ -13,4 +14,22 @@ layout: default
 <hr />
 {% include emulator.html code=system.emulator %}
 <hr />
-{% include configs/{{ system.emulator }}.html %}
+<h2>Emulator global configuration</h2>
+<div class="emulator-parameters">
+{% for config in base_config %}
+    <table>
+        <tr><th>{{ config[0] }}</th></tr>
+        <tr>
+            <td>
+                <dl>
+                    {% for parameter in config[1] %}
+                    {% assign name=parameter[0] %}
+                    {% assign value=parameter[1] %}
+                    {% include parameter.html name=name value=value %}
+                    {% endfor %}
+                </dl>
+            </td>
+        </tr>
+    </table>
+{% endfor %}
+</div>

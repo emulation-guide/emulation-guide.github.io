@@ -2489,7 +2489,7 @@ pre.highlight {
   display: block !important;
 }
 
-.d-flex {
+.d-flex, .emulator-parameters {
   display: flex !important;
 }
 
@@ -3448,7 +3448,7 @@ pre.highlight {
   float: right !important;
 }
 
-.flex-justify-start {
+.flex-justify-start, .emulator-parameters {
   justify-content: flex-start !important;
 }
 
@@ -7343,6 +7343,28 @@ a.skip-to-main:active {
 
 div.opaque {
   background-color: #fff;
+}
+
+.emulator-parameters {
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.emulator-parameters > .table-wrapper {
+  flex-basis: fit-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .emulator-parameters > .table-wrapper {
+    max-width: 50%;
+  }
+}
+.emulator-parameters > .table-wrapper dd {
+  white-space: nowrap;
+}
+.emulator-parameters > .table-wrapper dl {
+  grid-template: inherit;
 }
 
 /*# sourceMappingURL=just-the-docs-default.css.map */
