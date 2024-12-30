@@ -50,8 +50,8 @@ App Settings / Graphics:
     Use Software Renderer For Readbacks: true
   Game Display:
     Crop Mode: Only Overscan Area
-    Aspect Ratio: 16:9
-    Custom Aspect Ratio: 1:3
+    Aspect Ratio: "16:9"
+    Custom Aspect Ratio: "1:3"
     Scaling: Bilinear (Sharp)
     Downsampling: Disabled
     Stretch To Fill: false

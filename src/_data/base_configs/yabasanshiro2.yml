@@ -21,7 +21,7 @@ Preferences / Settings:
     Filter: None
     Polygon Generation Type: GPU Tessellation
     Rendering Resolution: 1080p
-    Aspect Ratio: Original
+    Aspect Ratio: "16:9"
     RBG Resolution: 1080p
     Use Compute Shader: true
     Hide Status bar and Navigation bar: false
