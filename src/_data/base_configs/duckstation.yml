@@ -1,4 +1,4 @@
-Interface:
+App Settings / Interface:
   Interface:
     Fast Boot: true
     Save State On Exit: true
@@ -20,7 +20,7 @@ Interface:
     Show Enhancements: false
     Show Frame Times: false
     OSD Scale: 100%
-System:
+App Settings / System:
   Speed Control:
     Emulation Speed: 100%
     Fast Forward Speed: Unlimited
@@ -39,7 +39,7 @@ System:
     Save Frequency: 10.0s
     Save Count: 10 slots
     Runahead: Disabled
-Graphics:
+App Settings / Graphics:
   Rendering:
     GPU Renderer: Hardware (Vulkan)
     Resolution Scale: 5x
@@ -70,7 +70,7 @@ Graphics:
     Enable VRAM Write Texture Replacement: true
     Use Old MDEC Routines: false
     Preload Texture Replacements: false
-Audio:
+App Settings / Audio:
   Volume Control:
     Volume: 100%
     Fast Forward Volume: 100%
@@ -81,10 +81,10 @@ Audio:
     Stretch Mode: Time Stretching
     Buffer Size: 100ms
     Output Latency: 20ms
-Post-Processing:
+App Settings / Post-Processing:
   Options:
     Enable Post Processing: true
-Achievements:
+App Settings / Achievements:
   Global Settings:
     Enable RetroAchievements: true
     Enable Hardcore Mode: false
@@ -99,10 +99,10 @@ Achievements:
   Advanced Settings:
     Use First Disc From Playlist: true
     Test Unofficial Achievements: false
-Game List:
+App Settings / Game List:
   _:
     Scanning subdirectories: "[your Roms/PSX directory]"
-Memory Cards:
+App Settings / Memory Cards:
   Settings:
     Use Single Card For Sub-Images: true
   Memory Card 1:
@@ -111,14 +111,14 @@ Memory Cards:
   Memory Card 2:
     Memory Card Type: No Memory Card
     Shared Card Name: shared_card_2.mcd
-BIOS:
+App Settings / BIOS:
   _:
     Import BIOS: "[your <a href='https://github.com/gingerbeardman/PSX/raw/refs/heads/master/PSXONPSP660.BIN' target='_blank'>PSXONPSP660.BIN</a> file]"
   Regions:
     NTSC-J (Japan): Auto-Detect
     NTSC-U/C (US/Canada): Auto-Detect
     PAL (Europe, Australia): Auto-Detect
-Advanced:
+App Settings / Advanced:
   Global Settings:
     Apply Compatibility Settings: true
     Disable All Enhancements: false
@@ -151,3 +151,144 @@ Advanced:
     Log To File: false
     Log To Logcat: false
     Enable TTY Output: false
+Controller Settings / Settings:
+  Profiles:
+    Per-Game Configuration: false
+  Settings:
+    Multitap Mode: false
+Controller Settings / Touchscreen:
+  View:
+    Touchscreen Controller View: None
+    Touchscreen Controller Port: Port 1
+Controller Settings / Port 1:
+  _:
+    Controller Type: Analog Controller (DualShock)
+  Bindings:
+    D-Pad Up: Xbox Wireless Controller&#091;16&#093;/<br>-Axis16
+    D-Pad Right: Xbox Wireless Controller&#091;16&#093;/<br>+Axis15
+    D-Pad Down: Xbox Wireless Controller&#091;16&#093;/<br>+Axis16
+    D-Pad Left: Xbox Wireless Controller&#091;16&#093;/<br>-Axis15
+    Triangle: Xbox Wireless Controller&#091;16&#093;/<br>Button100
+    Circle: Xbox Wireless Controller&#091;16&#093;/<br>Button97
+    Cross: Xbox Wireless Controller&#091;16&#093;/<br>Button96
+    Square: Xbox Wireless Controller&#091;16&#093;/<br>Button99
+    Select: Xbox Wireless Controller&#091;16&#093;/<br>Button109
+    Start: Xbox Wireless Controller&#091;16&#093;/<br>Button108
+    Analog Toggle: "&lt;No Binding&gt;"
+    L1: Xbox Wireless Controller&#091;16&#093;/<br>Button102
+    R1: Xbox Wireless Controller&#091;16&#093;/<br>Button103
+    L2: Xbox Wireless Controller&#091;16&#093;/<br>Button104 <br>& Xbox Wireless Controller&#091;16&#093;/<br>+Axis23
+    R2: Xbox Wireless Controller&#091;16&#093;/<br>Button105 <br>& Xbox Wireless Controller&#091;16&#093;/<br>+Axis22
+    L3: Xbox Wireless Controller&#091;16&#093;/<br>Button106
+    R3: Xbox Wireless Controller&#091;16&#093;/<br>Button107
+    Left Stick Left: Xbox Wireless Controller&#091;16&#093;/<br>-Axis0
+    Left Stick Right: Xbox Wireless Controller&#091;16&#093;/<br>+Axis0
+    Left Stick Down: Xbox Wireless Controller&#091;16&#093;/<br>+Axis1
+    Left Stick Up: Xbox Wireless Controller&#091;16&#093;/<br>-Axis1
+    Right Stick Left: Xbox Wireless Controller&#091;16&#093;/<br>-Axis11
+    Right Stick Right: Xbox Wireless Controller&#091;16&#093;/<br>+Axis11
+    Right Stick Down: Xbox Wireless Controller&#091;16&#093;/<br>+Axis14
+    Right Stick Up: Xbox Wireless Controller&#091;16&#093;/<br>-Axis14
+  Macros:
+    Macro 1: "&lt;No Binding&gt;"
+    Macro 2: "&lt;No Binding&gt;"
+    Macro 3: "&lt;No Binding&gt;"
+    Macro 4: "&lt;No Binding&gt;"
+  Vibration:
+    Large Motor: "&lt;No Binding&gt;"
+    Small Motor: "&lt;No Binding&gt;"
+  Settings:
+    Force Analog Mode on Reset: true
+    Use Analog Sticks for D-Pad in Digital Mode: true
+    Analog Deadzone: 0%
+    Analog Sensitivity: 133%
+    Button/Trigger Deadzone: 25%
+    Vibration Bias: 8
+    Invert Left Stick: Not Inverted
+    Invert Right Stick: Not Inverted
+Controller Settings / Port 2:
+  _:
+    Controller Type: None
+Controller Settings / Hotkeys:
+  General:
+    Fast Forward: "&lt;No Binding&gt;"
+    Toggle Fast Forward: "&lt;No Binding&gt;"
+    Turbo: "&lt;No Binding&gt;"
+    Toggle Turbo: "&lt;No Binding&gt;"
+    Save Screenshot: "&lt;No Binding&gt;"
+  System:
+    Reset System: "&lt;No Binding&gt;"
+    Change Disc: "&lt;No Binding&gt;"
+    Swap Memory Card Slots: "&lt;No Binding&gt;"
+    Rewind: "&lt;No Binding&gt;"
+    Toggle Patch Codes: "&lt;No Binding&gt;"
+    Toggle Clock Speed Control: "&lt;No Binding&gt;"
+    Increase Emulation Speed: "&lt;No Binding&gt;"
+    Decrease Emulation Speed: "&lt;No Binding&gt;"
+    Reset Emulation Speed: "&lt;No Binding&gt;"
+    Open Pause Menu: Xbox Wireless Controller&#091;16&#093;/<br>Button4
+    Quick Load: "&lt;No Binding&gt;"
+    Quick Save: "&lt;No Binding&gt;"
+  Graphics:
+    Toggle Software Rendering: "&lt;No Binding&gt;"
+    Toggle PGXP: "&lt;No Binding&gt;"
+    Increase Resolution Scale: "&lt;No Binding&gt;"
+    Decrease Resolution Scale: "&lt;No Binding&gt;"
+    Toggle Post-Processing: "&lt;No Binding&gt;"
+    Reload Post Processing Shaders: "&lt;No Binding&gt;"
+    Reload Texture Replacements: "&lt;No Binding&gt;"
+    Toggle Widerscreen: "&lt;No Binding&gt;"
+    Toggle PGXP Depth Buffer: "&lt;No Binding&gt;"
+    Toggle PGXP CPU Mode: "&lt;No Binding&gt;"
+  Audio:
+    Toggle Mute: "&lt;No Binding&gt;"
+    Toggle CD Audio Mute: "&lt;No Binding&gt;"
+    Volume Up: "&lt;No Binding&gt;"
+    Volume Down: "&lt;No Binding&gt;"
+  Save States:
+    Load From Selected Slot: "&lt;No Binding&gt;"
+    Save To Selected Slot: "&lt;No Binding&gt;"
+    Select Previous Save Slot: "&lt;No Binding&gt;"
+    Select Next Save Slot: "&lt;No Binding&gt;"
+    Save State and Select Next Slot: "&lt;No Binding&gt;"
+    Undo Load State: "&lt;No Binding&gt;"
+    Load Game State 1: "&lt;No Binding&gt;"
+    Save Game State 1: "&lt;No Binding&gt;"
+    Load Game State 2: "&lt;No Binding&gt;"
+    Save Game State 2: "&lt;No Binding&gt;"
+    Load Game State 3: "&lt;No Binding&gt;"
+    Save Game State 3: "&lt;No Binding&gt;"
+    Load Game State 4: "&lt;No Binding&gt;"
+    Save Game State 4: "&lt;No Binding&gt;"
+    Load Game State 5: "&lt;No Binding&gt;"
+    Save Game State 5: "&lt;No Binding&gt;"
+    Load Game State 6: "&lt;No Binding&gt;"
+    Save Game State 6: "&lt;No Binding&gt;"
+    Load Game State 7: "&lt;No Binding&gt;"
+    Save Game State 7: "&lt;No Binding&gt;"
+    Load Game State 8: "&lt;No Binding&gt;"
+    Save Game State 8: "&lt;No Binding&gt;"
+    Load Game State 9: "&lt;No Binding&gt;"
+    Save Game State 9: "&lt;No Binding&gt;"
+    Load Game State 10: "&lt;No Binding&gt;"
+    Save Game State 10: "&lt;No Binding&gt;"
+    Load Global State 1: "&lt;No Binding&gt;"
+    Save Global State 1: "&lt;No Binding&gt;"
+    Load Global State 2: "&lt;No Binding&gt;"
+    Save Global State 2: "&lt;No Binding&gt;"
+    Load Global State 3: "&lt;No Binding&gt;"
+    Save Global State 3: "&lt;No Binding&gt;"
+    Load Global State 4: "&lt;No Binding&gt;"
+    Save Global State 4: "&lt;No Binding&gt;"
+    Load Global State 5: "&lt;No Binding&gt;"
+    Save Global State 5: "&lt;No Binding&gt;"
+    Load Global State 6: "&lt;No Binding&gt;"
+    Save Global State 6: "&lt;No Binding&gt;"
+    Load Global State 7: "&lt;No Binding&gt;"
+    Save Global State 7: "&lt;No Binding&gt;"
+    Load Global State 8: "&lt;No Binding&gt;"
+    Save Global State 8: "&lt;No Binding&gt;"
+    Load Global State 9: "&lt;No Binding&gt;"
+    Save Global State 9: "&lt;No Binding&gt;"
+    Load Global State 10: "&lt;No Binding&gt;"
+    Save Global State 10: "&lt;No Binding&gt;"
