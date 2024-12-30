@@ -218,4 +218,50 @@ GameCube Input:
   GameCube Controller 2: None
   GameCube Controller 3: None
   GameCube Controller 4: None
+GameCube Input / GameCube Controller 1:
+  Device: Android/1/Xbox Wireless Controller
+  Create Mappings for Other Devices: false
+GameCube Input / GameCube Controller 1 / Buttons:
+  A: Button A
+  B: Button B
+  X: Button Y
+  Y: Button X
+  Z: Button R1
+  START: Start
+GameCube Input / GameCube Controller 1 / Control Stick:
+  Up: Axis 1-
+  Down: Axis 1+
+  Left: Axis 0-
+  Right: Axis 0+
+  Modifier:
+  Dead Zone: 0.00%
+  Virtual Notches: 0.00
+  Gate Size: 79.37%
+GameCube Input / GameCube Controller 1 / C Stick:
+  Up: Axis 14-
+  Down: Axis 14+
+  Left: Axis 11-
+  Right: Axis 11+
+  Modifier:
+  Dead Zone: 0.00%
+  Virtual Notches: 0.00
+  Gate Size: 72.21%
+GameCube Input / GameCube Controller 1 / Triggers:
+  L: Axis 23+
+  R: Axis 22+
+  L-Analog: Button L3
+  R-Analog: Button R3
+  Dead Zone: 0.00%
+  Threshold: 90.00%
+GameCube Input / GameCube Controller 1 / D-Pad:
+  Up: Axis 16-
+  Down: Axis 16+
+  Left: Axis 15-
+  Right: Axis 15+
+GameCube Input / GameCube Controller 1 / Microphone:
+  Button:
+GameCube Input / GameCube Controller 1 / Rumble:
+  Motor: Android/0/Device Sensors:Motor 0
+GameCube Input / GameCube Controller 1 / Options:
+  Always Connected: true
 Wii Input:
