@@ -77,7 +77,7 @@ Profiles/Emulation/NEW:
     RSP: HLE
     Video plugin: glide64 (adaptation of Glide64 Final)
   Glide64 settings:
-    Frameskip: Never skip frames
+    Frameskip: No more than 1 frame
   Glide64 advanced settings:
     Filtering mode: Force Bilinear
     Fog: Disable
