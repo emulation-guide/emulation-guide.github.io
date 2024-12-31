@@ -2753,7 +2753,7 @@ pre.highlight {
   display: block !important;
 }
 
-.d-flex, .emulator-parameters {
+.d-flex, .main-content ul, .emulator-parameters {
   display: flex !important;
 }
 
@@ -3712,7 +3712,7 @@ pre.highlight {
   float: right !important;
 }
 
-.flex-justify-start, .emulator-parameters {
+.flex-justify-start, .main-content ul, .emulator-parameters {
   justify-content: flex-start !important;
 }
 
@@ -7610,7 +7610,7 @@ div.opaque {
 }
 
 .emulator-parameters {
-  gap: 1rem;
+  gap: 0 1rem;
   flex-wrap: wrap;
   align-items: flex-start;
 }
@@ -7629,6 +7629,16 @@ div.opaque {
 }
 .emulator-parameters > div dl {
   grid-template: inherit;
+}
+
+.main-content ul {
+  gap: 0 2.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.main-content ul > li::before {
+  content: "🔷";
+  margin-right: 0.5rem;
 }
 
 /*# sourceMappingURL=just-the-docs-dark.css.map */
