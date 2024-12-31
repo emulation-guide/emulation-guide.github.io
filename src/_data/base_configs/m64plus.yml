@@ -80,7 +80,7 @@ Profiles/Emulation/NEW:
     Frameskip: Never skip frames
   Glide64 advanced settings:
     Filtering mode: Force Bilinear
-    Fog: Enable
+    Fog: Disable
     Buffer clear on every frame: Enable
     Buffer swapping method: Mix of first two methods
     LOD calculation: Disable
@@ -93,7 +93,7 @@ Profiles/Emulation/NEW:
     Alternate texture size method: Enable
     Use first SETTILESIZE only: Enable
     Use fast CRC algorithm: Enable
-    Check microcode each frame: Enable
+    Check microcode each frame: Disable
     Force 0xb5 command to be quad, not line 3D: Enable
     Fast texrect rendering with hwfbe: Enable
     Clear auxiliary texture frame buffers: Enable
@@ -102,8 +102,8 @@ Profiles/Emulation/NEW:
     Enable perspective texture correction emulation: Enable
     Force texrect size to integral value: Enable
     Reduce fillrect size by 1: Enable
-    3DFX Dithered alpha emulation mode: Pattern
-    Enable far plane clipping: Enable
+    3DFX Dithered alpha emulation mode: Rotate
+    Enable far plane clipping: Disable
     Enable near z clipping: Disable
     Adjust screen aspect for wide screen mode: Enable
     Force positive viewport: Enable
