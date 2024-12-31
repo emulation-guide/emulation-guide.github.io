@@ -1,0 +1,162 @@
+Settings/Library:
+  _:
+    Recently played: true
+    Sort: ROM name
+    Full names: true
+    Cover art scale: 100 %
+    Game country filter: >-
+      Unknown, USA, Japan,&nbsp;<br>
+      &nbsp;Europe, Australia, Korea,&nbsp;<br>
+      &nbsp;Germany, France, Italy, Spain
+Settings/Display:
+  _:
+    Rendered resolution: 1440 x 1080
+    Zoom: 100%
+    Screen scaling: Stretch 16:9
+    Screen orientation: Landscape
+    Immersive mode: true
+    Action bar opacity: 80 %
+    Framerate: Top right
+    GLideN64 Threaded video: true
+    GLideN64 hybrid filter: true
+    Flicker reduction: Auto-detect
+Settings/Shaders:
+  _:
+    Shader scale factor: 1 X
+Settings/Audio:
+  _:
+    Audio Volume: 100 %
+    Audio Buffer Size: 64 ms
+    Time stretch audio: true
+    Floating Point Samples: true
+    Synchronize audio and video: true
+    Swap audio channels: false
+    Low performance mode: false
+    Use high priority thread: true
+Settings/Touchscreen:
+  _:
+    Button scale: 100 %
+    Button opacity: 0 %
+    Haptic feedback: false
+    Animate joystick: false
+    Button style: WiiU Style
+    Button auto-hold: Disabled
+    Relative touchscreen joystick: false
+    Hide buttons when not used: true
+    Number of seconds before hiding touchscreen buttons: 0 sec
+Settings/Input:
+  _:
+    Accessibility: Big-screen mode
+    Automatic player mapping: true
+    All emulated controllers are always attached: true
+    Share controller: false
+    Show in-game menu: When back key is pressed
+    Mappable volume keys: false
+    Mappable back key: false
+    Mappable menu key: false
+    Hold controller buttons for functions: false
+    Use Raphnet adapter raw USB access: false
+Settings/Data:
+  _:
+    Game data storage location: Internal
+    Max auto saves per game: 4
+    Use flat game data folder structure: false
+    64DD IPL (J):
+  Google Drive:
+    Upload to Google Drive: false
+    Backup over cell data: false
+Settings/Netplay:
+  _:
+    Automatically map external ports: true
+Profiles/Emulation/NEW:
+  _:
+    Profile name: Retroid Pocket 5
+    Description:
+    R4300 emulator: Dynamic recompiler (dynarec)
+    Disable expansion pak: false
+    RSP: HLE
+    Video plugin: glide64 (adaptation of Glide64 Final)
+  Glide64 settings:
+    Frameskip: Never skip frames
+  Glide64 advanced settings:
+    Filtering mode: Force Bilinear
+    Fog: Enable
+    Buffer clear on every frame: Enable
+    Buffer swapping method: Mix of first two methods
+    LOD calculation: Disable
+    Smart framebuffer: Enable
+    Hardware frame buffer emulation: Game default
+    Enable software depth render: Disable
+    Set frambuffer CRC mode: Disable CRC calculation
+    Render N64 frame buffer as texture: Mode 2
+    Show images written directly by CPU: Enable
+    Alternate texture size method: Enable
+    Use first SETTILESIZE only: Enable
+    Use fast CRC algorithm: Enable
+    Check microcode each frame: Enable
+    Force 0xb5 command to be quad, not line 3D: Enable
+    Fast texrect rendering with hwfbe: Enable
+    Clear auxiliary texture frame buffers: Enable
+    Read alpha from framebuffer: Enable
+    Use spheric mapping only: Enable
+    Enable perspective texture correction emulation: Enable
+    Force texrect size to integral value: Enable
+    Reduce fillrect size by 1: Enable
+    3DFX Dithered alpha emulation mode: Pattern
+    Enable far plane clipping: Enable
+    Enable near z clipping: Disable
+    Adjust screen aspect for wide screen mode: Enable
+    Force positive viewport: Enable
+    Aspect ratio: Force 16:9
+    Force strict check in Depth buffer test: Disable
+    Apply alpha dither regardless of alpha_dither_mode: Enable
+    Scale vertex z value before writing to depth buffer: Enable
+    Set special scale for PAL games: Enable
+    Do not copy auxiliary frame buffers: Disable
+    Handle unchanged fb: Disable
+    Read framebuffer every frame: Disable
+    Anisotropic filtering setting: 16x
+Profiles/Controller/NEW:
+  _:
+    Profile name: Retroid Pocket 5
+    Description:
+    L: KEYCODE_BUTTON_L2
+    R: KEYCODE_BUTTON_R2
+    Z: KEYCODE_BUTTON_X
+    S: KEYCODE_BUTTON_START
+    A: KEYCODE_BUTTON_A
+    B: KEYCODE_BUTTON_B
+    C-pad →: AXIS_X (+)
+    C-pad ←: AXIS_X (-)
+    C-pad ↓: AXIS_Y (+)
+    C-pad ↑: AXIS_Y (-)
+    D-pad →: AXIS_HAT_X (+)
+    D-pad ←: AXIS_HAT_X (-)
+    D-pad ↓: AXIS_HAT_Y (+)
+    D-pad ↑: AXIS_HAT_Y (-)
+    Analog →: AXIS_Z (+)
+    Analog ←: AXIS_Z (-)
+    Analog ↓: AXIS_RZ (+)
+    Analog ↑: AXIS_RZ (-)
+    Increment slot:
+    Decrement slot:
+    Save slot:
+    Load slot:
+    Reset:
+    Pause:
+    Speed down:
+    Speed up:
+    Fast forward:
+    Frame advance:
+    Gameshark:
+    Back key:
+    Menu key:
+    Screenshot:
+    Toggle sensor:
+Profiles/Select Profiles:
+  _:
+    Emulation profile: Retroid Pocket 5
+    Controller 1 profile: Retroid Pocket 5
+    Controller 2 profile:
+    Controller 3 profile:
+    Controller 4 profile:
