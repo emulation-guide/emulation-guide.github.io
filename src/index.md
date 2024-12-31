@@ -14,6 +14,7 @@ Your ultimate resource for setting up and optimizing **Retroid Pocket 5** emulat
 Explore an extensive collection of games, each meticulously tested to ensure optimal performance. Each entry includes:
 - Full speed settings for 1080p gameplay.
 - Emulator-specific tweaks.
+- Game-specific tweaks.
 - Controller configurations.
 
 👉 [Browse Games](/games/)
