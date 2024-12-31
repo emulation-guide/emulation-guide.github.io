@@ -1,0 +1,284 @@
+App Settings / General:
+  Interface:
+    Fast Boot: true
+    Enable Patch Codes: true
+    Save State On Shutdown: true
+    Expand To Cutout Area: false
+    Emulation Screen Orientation: Use Device Setting
+    Display Alignment: Automatic
+    UI Language: Use Device Setting
+    Theme: Follow System
+  On-Screen Display:
+    Show Notifications: false
+    Show FPS: true
+    Show Speed: true
+    Show Resolution: true
+    Show CPU Usage: true
+    Show GPU Usage: true
+    Show GS Stats: false
+    Show Frame Times: false
+    Show Version/Device Info: false
+    Show Status Indicators: false
+    Show Settings: false
+    Show Controller Inputs: false
+    OSD Scale: 100%
+App Settings / System:
+  Performance:
+    EE Cycle Rate: 100% (0)
+    EE Cycle Skip: Normal (0)
+    Affinity Control Mode: Disabled
+    Multi-Threaded VU1: true
+    Instant VU1: true
+    Fast CDVD: false
+    Warn About Unsafe Settings: false
+  Speed Control:
+    Enable Frame Limit: true
+    Normal Speed: 100%
+    Turbo Speed: 200%
+    Slow Motion Speed: 50%
+App Settings / Graphics:
+  Rendering:
+    GPU Renderer: Vulkan
+    Upscale Multiplier: 3x Native
+    Bilinear Filtering: Bilinear (Forced)
+    Mipmapping: Full (PS2 Mips)
+    Trilinear Filtering: Enabled (Forced)
+    Anisotropic Filtering: 16x
+    Blending Accuracy: Ultra
+    Texture Preloading: Full (Hash Cache)
+    Hardware Download Mode: Accurate (Recommended)
+  Game Display:
+    Aspect Ratio: Widescreen (16:9)
+    FMV Aspect Ratio: Widescreen (16:9)
+    Bilinear Upscaling: Bilinear (Sharp)
+    Enable Widescreen Patches: true
+    Enable No-Interlacing Patches: true
+    Host VSync: true
+    Vertical Stretch: 100%
+    Crop: 0px/0px/0px/0px
+  Post Processing:
+    FXAA Shader: true
+    Contrast Adaptive Sharpening (CAS): Sharpen and Resize
+    CAS Sharpness: 50%
+    TV Shader: None
+    Shade Boost: false
+    Brightness: 50
+    Contrast: 50
+    Saturation: 50
+  Texture Replacements:
+    Load Texture Replacements: true
+    Asynchronous Texture Replacement Loading: false
+App Settings / Audio:
+  Controls:
+    Output Volume: 100%
+  Advanced:
+    Interpolation Mode: Gaussian
+    Synchronization Mode: TimeStretch
+    Average Latency: 60ms
+App Settings / Memory Cards:
+  Settings:
+    Create Memory Card: >-
+      Name: [your card name]&nbsp;<br>
+      &nbsp;Type: Folder
+    Folder Memory Card Filter: true
+  Memory Card 1:
+    Card Enabled: true
+    Card Name: "[your card name.ps2 (Folder)]"
+  Memory Card 2:
+    Card Enabled: false
+    Card Name: Empty Slot
+App Settings / Game List:
+  _:
+    Scanning subdirectories: "[your Roms/PS2 directory]"
+App Settings / BIOS:
+  _:
+    Import BIOS: "[your <a href='https://github.com/archtaurus/RetroPieBIOS/raw/refs/heads/master/BIOS/pcsx2/bios/ps2-0230a-20080220.bin' target='_blank'>ps2-0230a-20080220.bin</a> file]"
+    USA v02.30: true
+App Settings / Achievements:
+  Global Settings:
+    Enable RetroAchievements: true
+    Enable Hardcore Mode: false
+    Enable Leaderboards: true
+    Enable Rich Presence: true
+    Enable Notifications: true
+    Enable Sound Effects: true
+    Show Challenge Indicators: true
+  Account:
+    User Name: "[your retroachievements.org username]"
+  Advanced Settings:
+    Test Unofficial Achievements: false
+    Enable Test Mode: false
+App Settings / Advanced:
+  System Options:
+    Enable EE Recompiler: true
+    Enable VU0 Recompiler (Micro Mode): true
+    Enable VU1 Recompiler: true
+    Enable IOP Recompiler: true
+    EE FPU Correct Add/Sub: true
+    mVU Flag Optimization: true
+    Idle Loop Optimization: true
+    INTC Spin Detection: true
+    Enable Fastmem: true
+    Enable Host Filesystem: false
+    EE FPU Round Mode: Towards Zero/Chop
+    EE FPU Clamp Mode: Normal
+  Advanced Rendering:
+    GPU Palette Conversion: false
+    Spin GPU For Readbacks: false
+    Spin CPU For Readbacks: false
+    Dithering: Scaled
+    De-interlacing: Automatic
+    CRC Fix Level: Automatic
+    VSync Queue Size: 3 Frames
+    Software Rendering Threads: 5 Threads
+  Advanced Display:
+    Integer Scaling: true
+    Screen Offsets: false
+    Show Overscan: false
+    Anti-Blur: true
+    Disable Interflace Offset: true
+    Skip Presenting Duplicate Frames: true
+    Sync To Host Refresh Rate: true
+    Disable Threaded Presentation: false
+  Debugging:
+    Enable Logcat Logging: false
+    Enable File Logging: false
+    Enable EE Console: false
+    Enable IOP Console: false
+    Enable CDVD Read Logging: false
+    Debug GPU Device: false
+    Disable Framebuffer Fetch: false
+    Disable Dual-Source Blending: false
+    Override Texture Barriers: Automatic
+    Override Geometry Shaders: Automatic
+Controller Settings / Settings:
+  Profiles:
+    Per-Game Configuration: false
+  Settings:
+    Multitap on Port 1: false
+    Multitap on Port 2: false
+Controller Settings / Touchscreen:
+  View:
+    Touchscreen Controller View: None
+    Touchscreen Controller Port: Port 1
+  Settings:
+    Overlay Opacity: 0%
+    Auto-Hide Delay: 0s
+    Hide With External Controller: true
+    Bind To Right Stick: false
+    Touch Gliding: false
+    Vibrate On Press: false
+    Enable Game Vibration: true
+    Vibration Update Frequency: 10ms
+    Swipe Horizontal Sensitivity: 8.0x
+    Swipe Vertical Sensitivity: 8.0x
+Controller Settings / Port 1:
+  _:
+    Controller Type: DualShock 2
+  Bindings:
+    D-Pad Up: Xbox Wireless Controller&#091;16&#093;/<br>-Axis16
+    D-Pad Right: Xbox Wireless Controller&#091;16&#093;/<br>+Axis15
+    D-Pad Down: Xbox Wireless Controller&#091;16&#093;/<br>+Axis16
+    D-Pad Left: Xbox Wireless Controller&#091;16&#093;/<br>-Axis15
+    Triangle: Xbox Wireless Controller&#091;16&#093;/<br>Button100
+    Circle: Xbox Wireless Controller&#091;16&#093;/<br>Button97
+    Cross: Xbox Wireless Controller&#091;16&#093;/<br>Button96
+    Square: Xbox Wireless Controller&#091;16&#093;/<br>Button99
+    Select: Xbox Wireless Controller&#091;16&#093;/<br>Button109
+    Start: Xbox Wireless Controller&#091;16&#093;/<br>Button108
+    L1 (Left Bumper): Xbox Wireless Controller&#091;16&#093;/<br>Button102
+    L2 (Left Trigger): Xbox Wireless Controller&#091;16&#093;/<br>Button104 <br>& Xbox Wireless Controller&#091;16&#093;/<br>+Axis23
+    R1 (Right Bumper): Xbox Wireless Controller&#091;16&#093;/<br>Button103
+    R2 (Right Trigger): Xbox Wireless Controller&#091;16&#093;/<br>Button105 <br>& Xbox Wireless Controller&#091;16&#093;/<br>+Axis22
+    L3 (Left Stick Button): Xbox Wireless Controller&#091;16&#093;/<br>Button106
+    R3 (Right Stick Button): Xbox Wireless Controller&#091;16&#093;/<br>Button107
+    Analog Toggle: "&lt;No Binding&gt;"
+    Apply Pressure: "&lt;No Binding&gt;"
+    Left Stick Up: Xbox Wireless Controller&#091;16&#093;/<br>-Axis1
+    Left Stick Right: Xbox Wireless Controller&#091;16&#093;/<br>+Axis0
+    Left Stick Down: Xbox Wireless Controller&#091;16&#093;/<br>+Axis1
+    Left Stick Left: Xbox Wireless Controller&#091;16&#093;/<br>-Axis0
+    Right Stick Up: Xbox Wireless Controller&#091;16&#093;/<br>-Axis14
+    Right Stick Right: Xbox Wireless Controller&#091;16&#093;/<br>+Axis11
+    Right Stick Down: Xbox Wireless Controller&#091;16&#093;/<br>+Axis14
+    Right Stick Left: Xbox Wireless Controller&#091;16&#093;/<br>-Axis11
+  Macros:
+    Macro 1: "&lt;No Binding&gt;"
+    Macro 2: "&lt;No Binding&gt;"
+    Macro 3: "&lt;No Binding&gt;"
+    Macro 4: "&lt;No Binding&gt;"
+  Vibration:
+    Large Motor: "&lt;No Binding&gt;"
+    Small Motor: "&lt;No Binding&gt;"
+  Settings:
+    Invert Left Stick: Not Inverted
+    Invert Right Stick: Not Inverted
+    Analog Deadzone: 0%
+    Analog Sensitivity: 133%
+    Trigger Deadzone: 0%
+    Trigger Sensitivity: 100%
+    Large Motor Vibration Scale: 100%
+    Small Motor Vibration Scale: 100%
+    Button Deadzone: 0%
+    Modifier Pressure: 50%
+Controller Settings / Port 2:
+  _:
+    Controller Type: None
+Controller Settings / USB Port 1:
+  _:
+    Device Type: Not Connected
+Controller Settings / USB Port 2:
+  _:
+    Device Type: Not Connected
+Controller Settings / Hotkeys:
+  System:
+    Toggle Frame Limit: "&lt;No Binding&gt;"
+    Toggle Turbo / Fast Forward: "&lt;No Binding&gt;"
+    Toggle Slow Motion: "&lt;No Binding&gt;"
+    Turbo / Fast Forward (Hold): "&lt;No Binding&gt;"
+    Increase Target Speed: "&lt;No Binding&gt;"
+    Decrease Target Speed: "&lt;No Binding&gt;"
+    Increase Volume: "&lt;No Binding&gt;"
+    Decrease Volume Down: "&lt;No Binding&gt;"
+    Toggle Mute: "&lt;No Binding&gt;"
+    Reset Virtual Machine: "&lt;No Binding&gt;"
+    Open Pause Menu: Xbox Wireless Controller&#091;16&#093;/<br>Button4
+    Quick Load: "&lt;No Binding&gt;"
+    Quick Save: "&lt;No Binding&gt;"
+  Save States:
+    Select Previous Save Slot: "&lt;No Binding&gt;"
+    Select Next Save Slot: "&lt;No Binding&gt;"
+    Save State To Selected Slot: "&lt;No Binding&gt;"
+    Load State From Selected Slot: "&lt;No Binding&gt;"
+    Save State To Slot 1: "&lt;No Binding&gt;"
+    Load State From Slot 1: "&lt;No Binding&gt;"
+    Save State To Slot 2: "&lt;No Binding&gt;"
+    Load State From Slot 2: "&lt;No Binding&gt;"
+    Save State To Slot 3: "&lt;No Binding&gt;"
+    Load State From Slot 3: "&lt;No Binding&gt;"
+    Save State To Slot 4: "&lt;No Binding&gt;"
+    Load State From Slot 4: "&lt;No Binding&gt;"
+    Save State To Slot 5: "&lt;No Binding&gt;"
+    Load State From Slot 5: "&lt;No Binding&gt;"
+    Save State To Slot 6: "&lt;No Binding&gt;"
+    Load State From Slot 6: "&lt;No Binding&gt;"
+    Save State To Slot 7: "&lt;No Binding&gt;"
+    Load State From Slot 7: "&lt;No Binding&gt;"
+    Save State To Slot 8: "&lt;No Binding&gt;"
+    Load State From Slot 8: "&lt;No Binding&gt;"
+    Save State To Slot 9: "&lt;No Binding&gt;"
+    Load State From Slot 9: "&lt;No Binding&gt;"
+    Save State To Slot 10: "&lt;No Binding&gt;"
+    Load State From Slot 10: "&lt;No Binding&gt;"
+  Graphics:
+    Save Single Frame GS Dump: "&lt;No Binding&gt;"
+    Save Multi Frame GS Dump: "&lt;No Binding&gt;"
+    Toggle Software Rendering: "&lt;No Binding&gt;"
+    Increase Upscale Multiplier: "&lt;No Binding&gt;"
+    Decrease Upscale Multiplier: "&lt;No Binding&gt;"
+    Cycle Aspect Ratio: "&lt;No Binding&gt;"
+    Cycle Hardware Mipmapping: "&lt;No Binding&gt;"
+    Cycle Deinterlace Mode: "&lt;No Binding&gt;"
+    Toggle Texture Dumping: "&lt;No Binding&gt;"
+    Toggle Texture Replacements: "&lt;No Binding&gt;"
+    Reload Texture Replacements: "&lt;No Binding&gt;"
