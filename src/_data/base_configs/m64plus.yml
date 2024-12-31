@@ -110,7 +110,7 @@ Profiles/Emulation/NEW:
     Aspect ratio: Force 16:9
     Force strict check in Depth buffer test: Disable
     Apply alpha dither regardless of alpha_dither_mode: Enable
-    Scale vertex z value before writing to depth buffer: Enable
+    Scale vertex z value before writing to depth buffer: Disable
     Set special scale for PAL games: Enable
     Do not copy auxiliary frame buffers: Disable
     Handle unchanged fb: Disable
