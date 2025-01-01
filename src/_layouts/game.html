@@ -66,5 +66,5 @@ layout: default
 {% if content == "" %}
   Not required.
 {% else %}
-  {{ content }}
+  {{ content | markdownify }}
 {% endif %}
