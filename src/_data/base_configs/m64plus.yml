@@ -70,7 +70,7 @@ Settings/Netplay:
     Automatically map external ports: true
 Profiles/Emulation/NEW:
   _:
-    Profile name: Retroid Pocket 5
+    Profile name: Base Profile
     Description:
     R4300 emulator: Dynamic recompiler (dynarec)
     Disable expansion pak: false
@@ -118,7 +118,7 @@ Profiles/Emulation/NEW:
     Anisotropic filtering setting: 16x
 Profiles/Controller/NEW:
   _:
-    Profile name: Retroid Pocket 5
+    Profile name: Base Profile
     Description:
     L: KEYCODE_BUTTON_L2
     R: KEYCODE_BUTTON_R2
@@ -155,8 +155,8 @@ Profiles/Controller/NEW:
     Toggle sensor:
 Profiles/Select Profiles:
   _:
-    Emulation profile: Retroid Pocket 5
-    Controller 1 profile: Retroid Pocket 5
+    Emulation profile: Base Profile
+    Controller 1 profile: Base Profile
     Controller 2 profile:
     Controller 3 profile:
     Controller 4 profile:

@@ -1,27 +1,70 @@
 ---
 layout: default
 ---
-<div class="game-page">
-  <h1 class="game-title">{{ page.title }}</h1>
-  <div class="game-metadata">
-    <p><strong>System:</strong> <a href="/systems/{{ site.data.systems[page.system].manufacturer | downcase }}/{{ page.system | escape }}.html">{{ site.data.systems[page.system].title }}</a></p>
-    <!-- {% if page.genre %}
-    <p><strong>Genre:</strong> {{ page.genre }}</p>
-    {% endif %}
-    {% if page.release_date %}
-    <p><strong>Release Date:</strong> {{ page.release_date }}</p>
-    {% endif %}
-  </div>
-  <hr class="game-divider">
-  <div class="game-description">
-    {{ content | markdownify }}
-  </div>
-  {% if page.related_games %}
-  <h2>Related Games</h2>
-  <ul>
-    {% for related in page.related_games %}
-    <li><a href="{{ related.url }}">{{ related.title }}</a></li>
-    {% endfor %}
-  </ul>
-  {% endif %} -->
-</div>
+{% assign system=site.data.systems[page.system] %}
+{% assign emulator=site.data.emulators[system.emulator] %}
+<h1>
+  {{ page.title }}
+  {% if page.features.resolution == 1080 %}
+    <span class="label label-green">{{ page.features.resolution }}p</span>
+  {% else %}
+    <span class="label label-yellow">{{ page.features.resolution }}p</span>
+  {% endif %}
+  {% if page.features.aspect_ratio == "16:9" %}
+    <span class="label label-blue">{{ page.features.aspect_ratio }}</span>
+  {% else %}
+    <span class="label label-yellow">{{ page.features.aspect_ratio }}</span>
+  {% endif %}
+  {% if page.features.framerate == 60 %}
+    <span class="label label-purple">{{ page.features.framerate }} fps</span>
+  {% else %}
+    <span class="label label-yellow">{{ page.features.framerate }} fps</span>
+  {% endif %}
+</h1>
+<img src="{{ page.box_image }}">
+<h2>Additional information</h2>
+<dl>
+  <dt>System</dt>
+  <dd><a href="/systems/{{ system.manufacturer | downcase }}/{{ page.system | escape }}.html">{{ system.title }}</a></dd>
+  <dt>Emulator</dt>
+  <dd>{{ emulator.title }}</dd>
+  <dt>Game details</dt>
+  <dd><a href="{{ page.details }}" target="_blank">Link</a></dd>
+</dl>
+<p class="info-block">
+  <span class="title">Notice</span>
+  This page lists only <span class="fw-700">game-specific</span> settings. 
+  Please ensure that you have configured the initial (global/base) settings as described on the 
+  <a href="/systems/{{ system.manufacturer | downcase }}/{{ page.system | escape }}.html">system emulator page</a>.
+</p>
+<h2>Hacks/Cheats</h2>
+{% assign hacks = page.hacks | strip %}
+{% if hacks == "" %}
+  Not required.
+{% else %}
+  {% include parameters_block.html parameters=page.hacks %}
+{% endif %}
+
+<h2>Configuration overrides</h2>
+{% assign config_overrides = page.config_overrides | strip %}
+{% if config_overrides == "" %}
+  Not required.
+{% else %}
+  {% include parameters_block.html parameters=page.config_overrides %}
+{% endif %}
+
+<h2>Controller overrides</h2>
+{% assign controller_overrides = page.controller_overrides | strip %}
+{% if controller_overrides == "" %}
+  Not required.
+{% else %}
+  {% include parameters_block.html parameters=page.controller_overrides %}
+{% endif %}
+
+<h2>Additional information</h2>
+{% assign content = page.content | strip %}
+{% if content == "" %}
+  Not required.
+{% else %}
+  {{ content }}
+{% endif %}

@@ -15,28 +15,4 @@ layout: default
 {% include emulator.html code=system.emulator %}
 <hr />
 <h2>Emulator global configuration</h2>
-<div class="emulator-parameters">
-    {% for config in base_config %}
-        <div>
-            <h3>{{ config[0] }}</h3>
-            <table>
-                {% for config1 in config[1] %}
-                    {% if config1[0] != "_" %}
-                        <tr><th>{{ config1[0] }}</th></tr>
-                    {% endif %}
-                    <tr>
-                        <td>
-                            <dl>
-                                {% for parameter in config1[1] %}
-                                    {% assign name=parameter[0] %}
-                                    {% assign value=parameter[1] %}
-                                    {% include parameter.html name=name value=value %}
-                                {% endfor %}
-                            </dl>
-                        </td>
-                    </tr>
-                {% endfor %}
-            </table>
-        </div>
-    {% endfor %}
-</div>
+{% include parameters_block.html parameters=base_config %}
