@@ -117,12 +117,12 @@ Profiles/Emulation/NEW:
     Read framebuffer every frame: Disable
     Anisotropic filtering setting: 16x
 Profiles/Controller/NEW:
-  _:
-    Profile name: Base Profile
+  Base Profile (1st Person):
+    Profile name: Base Profile (1st Person)
     Description:
     L: KEYCODE_BUTTON_L2
-    R: KEYCODE_BUTTON_R2
-    Z: KEYCODE_BUTTON_X
+    R: KEYCODE_BUTTON_X
+    Z: KEYCODE_BUTTON_R2
     S: KEYCODE_BUTTON_START
     A: KEYCODE_BUTTON_A
     B: KEYCODE_BUTTON_B
@@ -153,10 +153,46 @@ Profiles/Controller/NEW:
     Menu key:
     Screenshot:
     Toggle sensor:
+  Base Profile (3rd Person):
+    Profile name: Base Profile (3rd Person)
+    Description:
+    L: KEYCODE_BUTTON_L2
+    R: KEYCODE_BUTTON_X
+    Z: KEYCODE_BUTTON_R2
+    S: KEYCODE_BUTTON_START
+    A: KEYCODE_BUTTON_A
+    B: KEYCODE_BUTTON_B
+    C-pad →: AXIS_HAT_X (+)
+    C-pad ←: AXIS_HAT_X (-)
+    C-pad ↓: AXIS_HAT_Y (+)
+    C-pad ↑: AXIS_HAT_Y (-)
+    D-pad →: AXIS_Z (+)
+    D-pad ←: AXIS_Z (-)
+    D-pad ↓: AXIS_RZ (+)
+    D-pad ↑: AXIS_RZ (-)
+    Analog →: AXIS_X (+)
+    Analog ←: AXIS_X (-)
+    Analog ↓: AXIS_Y (+)
+    Analog ↑: AXIS_Y (-)
+    Increment slot:
+    Decrement slot:
+    Save slot:
+    Load slot:
+    Reset:
+    Pause:
+    Speed down:
+    Speed up:
+    Fast forward:
+    Frame advance:
+    Gameshark:
+    Back key:
+    Menu key:
+    Screenshot:
+    Toggle sensor:
 Profiles/Select Profiles:
   _:
     Emulation profile: Base Profile
-    Controller 1 profile: Base Profile
+    Controller 1 profile: Base Profile (3rd Person)
     Controller 2 profile:
     Controller 3 profile:
     Controller 4 profile:

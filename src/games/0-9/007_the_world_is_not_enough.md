@@ -11,6 +11,8 @@ features:
 hacks:
 config_overrides:
     Settings:
+        Controller:
+            Controller 1 profile: Base Profile (1st Person)
         Advanced:
             Use default overclocking factor: false
             Overclocking Factor: 1
@@ -26,6 +28,15 @@ When starting the game open **Options** and set the following:
                     <dl>
                         <dt>Controller Style</dt>
                         <dd><span class="bg-green-200 text-grey-lt-000">&nbsp;3 - Infiltration&nbsp;</span></dd>
+                    </dl>
+                </td>
+            </tr>
+            <tr><th>Advanced Controls</th></tr>
+            <tr>
+                <td>
+                    <dl>
+                        <dt>Aim Control</dt>
+                        <dd><span class="bg-green-200 text-grey-lt-000">&nbsp;Toggle&nbsp;</span></dd>
                     </dl>
                 </td>
             </tr>
