@@ -10,8 +10,8 @@ Settings/Library:
       &nbsp;Germany, France, Italy, Spain
 Settings/Display:
   _:
-    Rendered resolution: 1440 x 1080
-    Zoom: 100%
+    Rendered resolution: 1920 x 1440
+    Zoom: 110%
     Screen scaling: Stretch 16:9
     Screen orientation: Landscape
     Immersive mode: true
@@ -33,17 +33,6 @@ Settings/Audio:
     Swap audio channels: false
     Low performance mode: false
     Use high priority thread: true
-Settings/Touchscreen:
-  _:
-    Button scale: 100 %
-    Button opacity: 0 %
-    Haptic feedback: false
-    Animate joystick: false
-    Button style: WiiU Style
-    Button auto-hold: Disabled
-    Relative touchscreen joystick: false
-    Hide buttons when not used: true
-    Number of seconds before hiding touchscreen buttons: 0 sec
 Settings/Input:
   _:
     Accessibility: Big-screen mode
@@ -75,47 +64,57 @@ Profiles/Emulation/NEW:
     R4300 emulator: Dynamic recompiler (dynarec)
     Disable expansion pak: false
     RSP: HLE
-    Video plugin: glide64 (adaptation of Glide64 Final)
-  Glide64 settings:
-    Frameskip: No more than 1 frame
-  Glide64 advanced settings:
-    Filtering mode: Force Bilinear
-    Fog: Disable
-    Buffer clear on every frame: Enable
-    Buffer swapping method: Mix of first two methods
-    LOD calculation: Disable
-    Smart framebuffer: Enable
-    Hardware frame buffer emulation: Game default
-    Enable software depth render: Disable
-    Set frambuffer CRC mode: Disable CRC calculation
-    Render N64 frame buffer as texture: Mode 2
-    Show images written directly by CPU: Enable
-    Alternate texture size method: Enable
-    Use first SETTILESIZE only: Enable
-    Use fast CRC algorithm: Enable
-    Check microcode each frame: Disable
-    Force 0xb5 command to be quad, not line 3D: Enable
-    Fast texrect rendering with hwfbe: Enable
-    Clear auxiliary texture frame buffers: Enable
-    Read alpha from framebuffer: Enable
-    Use spheric mapping only: Enable
-    Enable perspective texture correction emulation: Enable
-    Force texrect size to integral value: Enable
-    Reduce fillrect size by 1: Enable
-    3DFX Dithered alpha emulation mode: Rotate
-    Enable far plane clipping: Disable
-    Enable near z clipping: Disable
-    Adjust screen aspect for wide screen mode: Enable
-    Force positive viewport: Enable
-    Aspect ratio: Force 16:9
-    Force strict check in Depth buffer test: Disable
-    Apply alpha dither regardless of alpha_dither_mode: Enable
-    Scale vertex z value before writing to depth buffer: Disable
-    Set special scale for PAL games: Enable
-    Do not copy auxiliary frame buffers: Disable
-    Handle unchanged fb: Disable
-    Read framebuffer every frame: Disable
-    Anisotropic filtering setting: 16x
+    Video plugin: gliden64 (GlideN64 beta)
+  Texture:
+    Bilinear filtering mode: N64 3-point
+    Remove halos around filtered textures: true
+    Maximum anisotropic filtering: 16x
+  General:
+    Widescreen hack: false
+    Dithering pattern: false
+    Hi-res noise dithering: false
+    Dithering quantization: false
+    Dithering mode for image in RDRAM: Blue Noise
+    LOD emulation: false
+    Hardware per-pixel lighting: true
+    Coverage emulation: false
+    Software Vertex Clipping: true
+    Legacy blending: false
+    Fragment based depth: true
+    Use faster shaders: true
+  2D Settings:
+    Fix texrect image mis-alignment: false
+    Make texrect coordinates continuous: "Off"
+    Render backgrounds mode (HLE only): Stripped (precise)
+    Bound textured rectangle coordinates: true
+  Frame Buffer Emulation:
+    Frame and/or depth buffer emulation: true
+    Swap frame buffers: On VI update call
+    Copy color buffer to RDRAM: Copy in async mode (3 buffers)
+    Copy auxiliary buffers to RDRAM: true
+    Copy depth buffer to RDRAM: Software renderer
+    Color buffer copy from RDRAM: false
+    N64 depth compare: false
+    Force depth buffer clear: false
+    Use native resolution factor: 4x
+  Texture Filtering:
+    Texture filter mode: Sharp 2
+    Texture Enhancement: X2
+    Deposterize texture before enhancement: true
+    Don't filter background textures: false
+    Size of filtered textures cache in megabytes: 1024 MB
+    Use high-resolution texture packs if available: true
+    Allow full use alpha channel of high-res textures: true
+    Use alternative CRC calculation: false
+    Zip texture cache: false
+    Force 16bit texture format for HD textures: false
+    Save texture cache to disk: true
+    Enhanced texture file storage: false
+    Hires texture file storage: false
+    Dump textures: false
+  Gamma Correction:
+    Force gamma correction: true
+    Gamma correction value: 10
 Profiles/Controller/NEW:
   Base Profile (1st Person):
     Profile name: Base Profile (1st Person)
