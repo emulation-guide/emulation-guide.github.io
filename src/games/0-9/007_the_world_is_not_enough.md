@@ -8,58 +8,22 @@ features:
     resolution: 1080
     aspect_ratio: "16:9"
     framerate: 30
-hacks:
-config_overrides:
+config:
     Settings:
         Controller:
             Controller 1 profile: Base Profile (1st Person)
         Advanced:
             Use default overclocking factor: false
             Overclocking Factor: 1
-controller_overrides:
+ingame:
+    Options:
+        Controller Style:
+            Controller Style: 3 - Infiltration
+        Advanced Controls:
+            Aim Control: Toggle
+        Graphics:
+            Video Mode: Hi-Color
+            Aspect Ratio: Widescreen
+        Audio:
+            Sound Module: Stereo
 ---
-When starting the game open **Options** and set the following:
-<div class="emulator-parameters">
-    <div>
-        <table>
-            <tr><th>Controller Style</th></tr>
-            <tr>
-                <td>
-                    <dl>
-                        <dt>Controller Style</dt>
-                        <dd><span class="bg-green-200 text-grey-lt-000">&nbsp;3 - Infiltration&nbsp;</span></dd>
-                    </dl>
-                </td>
-            </tr>
-            <tr><th>Advanced Controls</th></tr>
-            <tr>
-                <td>
-                    <dl>
-                        <dt>Aim Control</dt>
-                        <dd><span class="bg-green-200 text-grey-lt-000">&nbsp;Toggle&nbsp;</span></dd>
-                    </dl>
-                </td>
-            </tr>
-            <tr><th>Graphics</th></tr>
-            <tr>
-                <td>
-                    <dl>
-                        <dt>Video Mode</dt>
-                        <dd><span class="bg-green-200 text-grey-lt-000">&nbsp;Hi-Color&nbsp;</span></dd>
-                        <dt>Aspect Ratio</dt>
-                        <dd><span class="bg-green-200 text-grey-lt-000">&nbsp;Widescreen&nbsp;</span></dd>
-                    </dl>
-                </td>
-            </tr>
-            <tr><th>Audio</th></tr>
-            <tr>
-                <td>
-                    <dl>
-                        <dt>Sound Module</dt>
-                        <dd><span class="bg-green-200 text-grey-lt-000">&nbsp;Stereo&nbsp;</span></dd>
-                    </dl>
-                </td>
-            </tr>
-        </table>
-    </div>
-</div>

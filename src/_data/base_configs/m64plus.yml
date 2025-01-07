@@ -68,7 +68,7 @@ Profiles/Emulation/NEW:
   Texture:
     Bilinear filtering mode: N64 3-point
     Remove halos around filtered textures: true
-    Maximum anisotropic filtering: 16x
+    Maximum anisotropic filtering: 0x
   General:
     Widescreen hack: false
     Dithering pattern: false
@@ -105,12 +105,12 @@ Profiles/Emulation/NEW:
     Size of filtered textures cache in megabytes: 1024 MB
     Use high-resolution texture packs if available: true
     Allow full use alpha channel of high-res textures: true
-    Use alternative CRC calculation: false
-    Zip texture cache: false
+    Use alternative CRC calculation: true
+    Zip texture cache: true
     Force 16bit texture format for HD textures: false
     Save texture cache to disk: true
-    Enhanced texture file storage: false
-    Hires texture file storage: false
+    Enhanced texture file storage: true
+    Hires texture file storage: true
     Dump textures: false
   Gamma Correction:
     Force gamma correction: true

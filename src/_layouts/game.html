@@ -37,34 +37,39 @@ layout: default
   Please ensure that you have configured the initial (global/base) settings as described on the 
   <a href="/systems/{{ system.manufacturer | downcase }}/{{ page.system | escape }}.html">system emulator page</a>.
 </p>
-<h2>Hacks/Cheats</h2>
-{% assign hacks = page.hacks | strip %}
-{% if hacks == "" %}
-  Not required.
-{% else %}
-  {% include parameters_block.html parameters=page.hacks %}
+
+{% assign hd_textures = page.hd_textures | strip %}
+{% if hd_textures != "" %}
+  <h2>HD Textures</h2>
+  {% include parameters_block.html parameters=page.hd_textures %}
 {% endif %}
 
-<h2>Configuration overrides</h2>
-{% assign config_overrides = page.config_overrides | strip %}
-{% if config_overrides == "" %}
-  Not required.
-{% else %}
-  {% include parameters_block.html parameters=page.config_overrides %}
+{% assign cheats = page.cheats | strip %}
+{% if cheats != "" %}
+  <h2>Cheats/Hacks</h2>
+  {% include parameters_block.html parameters=page.cheats %}
 {% endif %}
 
-<h2>Controller overrides</h2>
-{% assign controller_overrides = page.controller_overrides | strip %}
-{% if controller_overrides == "" %}
-  Not required.
-{% else %}
-  {% include parameters_block.html parameters=page.controller_overrides %}
+{% assign controller = page.controller | strip %}
+{% if controller != "" %}
+  <h2>Per-game Controller Overrides</h2>
+  {% include parameters_block.html parameters=page.controller %}
 {% endif %}
 
-<h2>Additional information</h2>
+{% assign config = page.config | strip %}
+{% if config != "" %}
+  <h2>Per-game Configuration Overrides</h2>
+  {% include parameters_block.html parameters=page.config %}
+{% endif %}
+
+{% assign ingame = page.ingame | strip %}
+{% if ingame != "" %}
+  <h2>Ingame Configuration</h2>
+  {% include parameters_block.html parameters=page.ingame %}
+{% endif %}
+
 {% assign content = page.content | strip %}
-{% if content == "" %}
-  Not required.
-{% else %}
+{% if content != "" %}
+  <h2>Additional notes</h2>
   {{ content | markdownify }}
 {% endif %}
