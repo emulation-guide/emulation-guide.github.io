@@ -11,7 +11,7 @@ Settings/Library:
 Settings/Display:
   _:
     Rendered resolution: 1920 x 1440
-    Zoom: 110%
+    Zoom: 100%
     Screen scaling: Stretch 16:9
     Screen orientation: Landscape
     Immersive mode: true
@@ -68,7 +68,7 @@ Profiles/Emulation/NEW:
   Texture:
     Bilinear filtering mode: N64 3-point
     Remove halos around filtered textures: true
-    Maximum anisotropic filtering: 0x
+    Maximum anisotropic filtering: 0 x
   General:
     Widescreen hack: false
     Dithering pattern: false
@@ -78,14 +78,14 @@ Profiles/Emulation/NEW:
     LOD emulation: false
     Hardware per-pixel lighting: true
     Coverage emulation: false
-    Software Vertex Clipping: true
+    Software Vertex Clipping: false
     Legacy blending: false
-    Fragment based depth: true
+    Fragment based depth: false
     Use faster shaders: true
   2D Settings:
     Fix texrect image mis-alignment: false
     Make texrect coordinates continuous: "Off"
-    Render backgrounds mode (HLE only): Stripped (precise)
+    Render backgrounds mode (HLE only): One piece (fast)
     Bound textured rectangle coordinates: true
   Frame Buffer Emulation:
     Frame and/or depth buffer emulation: true
@@ -99,13 +99,13 @@ Profiles/Emulation/NEW:
     Use native resolution factor: 4x
   Texture Filtering:
     Texture filter mode: Sharp 2
-    Texture Enhancement: X2
-    Deposterize texture before enhancement: true
+    Texture Enhancement: Store as is
+    Deposterize texture before enhancement: false
     Don't filter background textures: false
     Size of filtered textures cache in megabytes: 1024 MB
     Use high-resolution texture packs if available: true
     Allow full use alpha channel of high-res textures: true
-    Use alternative CRC calculation: true
+    Use alternative CRC calculation: false
     Zip texture cache: true
     Force 16bit texture format for HD textures: false
     Save texture cache to disk: true
@@ -119,6 +119,9 @@ Profiles/Controller/NEW:
   Base Profile (1st Person):
     Profile name: Base Profile (1st Person)
     Description:
+    Deadzone: 4 %
+    X-axis Sensitivity: 76 %
+    Y-axis Sensitivity: 76 %
     L: KEYCODE_BUTTON_L2
     R: KEYCODE_BUTTON_X
     Z: KEYCODE_BUTTON_R2
@@ -155,6 +158,9 @@ Profiles/Controller/NEW:
   Base Profile (3rd Person):
     Profile name: Base Profile (3rd Person)
     Description:
+    Deadzone: 4 %
+    X-axis Sensitivity: 76 %
+    Y-axis Sensitivity: 76 %
     L: KEYCODE_BUTTON_L2
     R: KEYCODE_BUTTON_X
     Z: KEYCODE_BUTTON_R2

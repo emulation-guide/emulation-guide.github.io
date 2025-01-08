@@ -113,7 +113,7 @@
   },"16": {
     "doc": "Perfect Dark",
     "title": "Perfect Dark",
-    "content": "In-game Options available only after selection of agent. ",
+    "content": "In-game Options available only after selection of agent. DO NOT enable Hi-Res in Video Options as that will force game into very low FPS mode. ",
     "url": "/games/P/perfect_dark.html",
     
     "relUrl": "/games/P/perfect_dark.html"
