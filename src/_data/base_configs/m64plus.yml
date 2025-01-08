@@ -18,7 +18,7 @@ Settings/Display:
     Action bar opacity: 80 %
     Framerate: Top right
     GLideN64 Threaded video: true
-    GLideN64 hybrid filter: true
+    GLideN64 hybrid filter: false
     Flicker reduction: Auto-detect
 Settings/Shaders:
   _:
