@@ -27,7 +27,9 @@ ingame:
             Sound Module: Stereo
 ---
 
-Copy **Base Profile** emulation profile and name it **007: The World Is Not Enough** and change:
+Copy **Base Profile** emulation profile and name it **007: The World Is Not Enough**.
+Apply the following changes:
+
 <div class="emulator-parameters">
     <div>
         <h3>General</h3>
