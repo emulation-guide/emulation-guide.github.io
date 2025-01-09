@@ -23,10 +23,12 @@ ingame:
     Options:
         Video:
             Ratio: "16:9"
+            Hi-Res: true
         Control:
             Control Style: 1.2
             Reverse Pitch: false
+        Advanced:
+            Use default overclocking factor: false
+            Overclocking Factor: 5
 ---
 In-game *Options* available only after **selection of agent**.
-**DO NOT** enable *Hi-Res* in *Video Options* as that will 
-force game into very low FPS mode.

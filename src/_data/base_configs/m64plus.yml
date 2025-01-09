@@ -18,7 +18,7 @@ Settings/Display:
     Action bar opacity: 80 %
     Framerate: Top right
     GLideN64 Threaded video: true
-    GLideN64 hybrid filter: false
+    GLideN64 hybrid filter: true
     Flicker reduction: Auto-detect
 Settings/Shaders:
   _:
@@ -91,7 +91,7 @@ Profiles/Emulation/NEW:
     Frame and/or depth buffer emulation: true
     Swap frame buffers: On VI update call
     Copy color buffer to RDRAM: Copy in async mode (3 buffers)
-    Copy auxiliary buffers to RDRAM: true
+    Copy auxiliary buffers to RDRAM: false
     Copy depth buffer to RDRAM: Software renderer
     Color buffer copy from RDRAM: false
     N64 depth compare: false
