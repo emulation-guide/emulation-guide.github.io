@@ -9,9 +9,9 @@
     "doc": "Armorines - Project S.W.A.R.M.",
     "title": "Armorines - Project S.W.A.R.M.",
     "content": "In-game options get reset on every game start - don’t forget to set those back. ",
-    "url": "/games/A/armorines_project_swarm.html",
+    "url": "/games/a/armorines_project_swarm.html",
     
-    "relUrl": "/games/A/armorines_project_swarm.html"
+    "relUrl": "/games/a/armorines_project_swarm.html"
   },"2": {
     "doc": "First Steps",
     "title": "First Steps",
@@ -121,9 +121,9 @@
     "doc": "Perfect Dark",
     "title": "Perfect Dark",
     "content": "In-game Options available only after selection of agent. ",
-    "url": "/games/P/perfect_dark.html",
+    "url": "/games/p/perfect_dark.html",
     
-    "relUrl": "/games/P/perfect_dark.html"
+    "relUrl": "/games/p/perfect_dark.html"
   },"18": {
     "doc": "PlayStation 2",
     "title": "PlayStation 2",
@@ -195,179 +195,11 @@
     
     "relUrl": "/games/a/"
   },"28": {
-    "doc": "B",
-    "title": "B",
-    "content": "# Games: B ",
-    "url": "/games/b/",
-    
-    "relUrl": "/games/b/"
-  },"29": {
-    "doc": "C",
-    "title": "C",
-    "content": "# Games: C ",
-    "url": "/games/c/",
-    
-    "relUrl": "/games/c/"
-  },"30": {
-    "doc": "D",
-    "title": "D",
-    "content": "# Games: D ",
-    "url": "/games/d/",
-    
-    "relUrl": "/games/d/"
-  },"31": {
-    "doc": "E",
-    "title": "E",
-    "content": "# Games: E ",
-    "url": "/games/e/",
-    
-    "relUrl": "/games/e/"
-  },"32": {
-    "doc": "F",
-    "title": "F",
-    "content": "# Games: F ",
-    "url": "/games/f/",
-    
-    "relUrl": "/games/f/"
-  },"33": {
-    "doc": "G",
-    "title": "G",
-    "content": "# Games: G ",
-    "url": "/games/g/",
-    
-    "relUrl": "/games/g/"
-  },"34": {
-    "doc": "H",
-    "title": "H",
-    "content": "# Games: H ",
-    "url": "/games/h/",
-    
-    "relUrl": "/games/h/"
-  },"35": {
-    "doc": "I",
-    "title": "I",
-    "content": "# Games: I ",
-    "url": "/games/i/",
-    
-    "relUrl": "/games/i/"
-  },"36": {
-    "doc": "J",
-    "title": "J",
-    "content": "# Games: J ",
-    "url": "/games/j/",
-    
-    "relUrl": "/games/j/"
-  },"37": {
-    "doc": "K",
-    "title": "K",
-    "content": "# Games: K ",
-    "url": "/games/k/",
-    
-    "relUrl": "/games/k/"
-  },"38": {
-    "doc": "L",
-    "title": "L",
-    "content": "# Games: L ",
-    "url": "/games/l/",
-    
-    "relUrl": "/games/l/"
-  },"39": {
-    "doc": "M",
-    "title": "M",
-    "content": "# Games: M ",
-    "url": "/games/m/",
-    
-    "relUrl": "/games/m/"
-  },"40": {
-    "doc": "N",
-    "title": "N",
-    "content": "# Games: N ",
-    "url": "/games/n/",
-    
-    "relUrl": "/games/n/"
-  },"41": {
-    "doc": "O",
-    "title": "O",
-    "content": "# Games: O ",
-    "url": "/games/o/",
-    
-    "relUrl": "/games/o/"
-  },"42": {
     "doc": "P",
     "title": "P",
     "content": "# Games: P ",
     "url": "/games/p/",
     
     "relUrl": "/games/p/"
-  },"43": {
-    "doc": "Q",
-    "title": "Q",
-    "content": "# Games: Q ",
-    "url": "/games/q/",
-    
-    "relUrl": "/games/q/"
-  },"44": {
-    "doc": "R",
-    "title": "R",
-    "content": "# Games: R ",
-    "url": "/games/r/",
-    
-    "relUrl": "/games/r/"
-  },"45": {
-    "doc": "S",
-    "title": "S",
-    "content": "# Games: S ",
-    "url": "/games/s/",
-    
-    "relUrl": "/games/s/"
-  },"46": {
-    "doc": "T",
-    "title": "T",
-    "content": "# Games: T ",
-    "url": "/games/t/",
-    
-    "relUrl": "/games/t/"
-  },"47": {
-    "doc": "U",
-    "title": "U",
-    "content": "# Games: U ",
-    "url": "/games/u/",
-    
-    "relUrl": "/games/u/"
-  },"48": {
-    "doc": "V",
-    "title": "V",
-    "content": "# Games: V ",
-    "url": "/games/v/",
-    
-    "relUrl": "/games/v/"
-  },"49": {
-    "doc": "W",
-    "title": "W",
-    "content": "# Games: W ",
-    "url": "/games/w/",
-    
-    "relUrl": "/games/w/"
-  },"50": {
-    "doc": "X",
-    "title": "X",
-    "content": "# Games: X ",
-    "url": "/games/x/",
-    
-    "relUrl": "/games/x/"
-  },"51": {
-    "doc": "Y",
-    "title": "Y",
-    "content": "# Games: Y ",
-    "url": "/games/y/",
-    
-    "relUrl": "/games/y/"
-  },"52": {
-    "doc": "Z",
-    "title": "Z",
-    "content": "# Games: Z ",
-    "url": "/games/z/",
-    
-    "relUrl": "/games/z/"
   }
 }

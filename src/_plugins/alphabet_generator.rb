@@ -3,8 +3,13 @@ class AlphabetGenerator < Jekyll::Generator
 
   def generate(site)
     entries = ['0-9'] + ('A'..'Z').to_a
+
     entries.each do |entry|
-      site.pages << AlphabetPage.new(site, site.source, "/games/#{entry.downcase}/", entry)
+      dir_path = File.join(site.source, "games", entry.downcase)
+      md_files = Dir.glob(File.join(dir_path, "*.md"))
+      unless md_files.empty?
+        site.pages << AlphabetPage.new(site, site.source, "/games/#{entry.downcase}/", entry)
+      end
     end
   end
 end
