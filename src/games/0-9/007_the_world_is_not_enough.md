@@ -7,14 +7,13 @@ details: https://gamesdb.launchbox-app.com/games/details/225-007-the-world-is-no
 features:
     resolution: 1080
     aspect_ratio: "16:9"
-    framerate: 30
+    framerate: 60
 config:
     Settings:
+        _:
+            Emulation profile: "007: The World Is Not Enough"
         Controller:
             Controller 1 profile: Base Profile (1st Person)
-        Advanced:
-            Use default overclocking factor: false
-            Overclocking Factor: 1
 ingame:
     Options:
         Controller Style:
@@ -27,3 +26,20 @@ ingame:
         Audio:
             Sound Module: Stereo
 ---
+
+Copy **Base Profile** emulation profile and name it **007: The World Is Not Enough** and change:
+<div class="emulator-parameters">
+    <div>
+        <h3>General</h3>
+        <table>
+            <tr>
+                <td>
+                    <dl>
+                        <dt>Fragment based depth</dt>
+                        <dd>:heavy_check_mark:</dd>
+                    </dl>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
