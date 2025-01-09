@@ -155,6 +155,45 @@ Profiles/Controller/NEW:
     Menu key:
     Screenshot:
     Toggle sensor:
+  Base Profile (1st Person / Inverted):
+      Profile name: Base Profile (1st Person / Inverted)
+      Description:
+      Deadzone: 4 %
+      X-axis Sensitivity: 76 %
+      Y-axis Sensitivity: 76 %
+      L: KEYCODE_BUTTON_L2
+      R: KEYCODE_BUTTON_X
+      Z: KEYCODE_BUTTON_R2
+      S: KEYCODE_BUTTON_START
+      A: KEYCODE_BUTTON_A
+      B: KEYCODE_BUTTON_B
+      C-pad →: AXIS_X (+)
+      C-pad ←: AXIS_X (-)
+      C-pad ↓: AXIS_Y (+)
+      C-pad ↑: AXIS_Y (-)
+      D-pad →: AXIS_HAT_X (+)
+      D-pad ←: AXIS_HAT_X (-)
+      D-pad ↓: AXIS_HAT_Y (+)
+      D-pad ↑: AXIS_HAT_Y (-)
+      Analog →: AXIS_Z (+)
+      Analog ←: AXIS_Z (-)
+      Analog ↓: AXIS_RZ (-)
+      Analog ↑: AXIS_RZ (+)
+      Increment slot:
+      Decrement slot:
+      Save slot:
+      Load slot:
+      Reset:
+      Pause:
+      Speed down:
+      Speed up:
+      Fast forward:
+      Frame advance:
+      Gameshark:
+      Back key:
+      Menu key:
+      Screenshot:
+      Toggle sensor:
   Base Profile (3rd Person):
     Profile name: Base Profile (3rd Person)
     Description:
