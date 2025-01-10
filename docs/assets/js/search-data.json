@@ -13,188 +13,202 @@
     
     "relUrl": "/games/a/armorines_project_swarm.html"
   },"2": {
+    "doc": "Duke Nukem: Zero Hour",
+    "title": "Duke Nukem: Zero Hour",
+    "content": " ",
+    "url": "/games/d/duke_nukem_zero_hour.html",
+    
+    "relUrl": "/games/d/duke_nukem_zero_hour.html"
+  },"3": {
     "doc": "First Steps",
     "title": "First Steps",
     "content": " ",
     "url": "/first-steps.html",
     
     "relUrl": "/first-steps.html"
-  },"3": {
+  },"4": {
     "doc": "GameCube",
     "title": "GameCube",
     "content": " ",
     "url": "/systems/nintendo/gc.html",
     
     "relUrl": "/systems/nintendo/gc.html"
-  },"4": {
+  },"5": {
     "doc": "Nintendo",
     "title": "Nintendo",
     "content": " ",
     "url": "/systems/nintendo/",
     
     "relUrl": "/systems/nintendo/"
-  },"5": {
+  },"6": {
     "doc": "Sony",
     "title": "Sony",
     "content": " ",
     "url": "/systems/sony/",
     
     "relUrl": "/systems/sony/"
-  },"6": {
+  },"7": {
     "doc": "Microsoft",
     "title": "Microsoft",
     "content": " ",
     "url": "/systems/microsoft/",
     
     "relUrl": "/systems/microsoft/"
-  },"7": {
+  },"8": {
     "doc": "Sega",
     "title": "Sega",
     "content": " ",
     "url": "/systems/sega/",
     
     "relUrl": "/systems/sega/"
-  },"8": {
+  },"9": {
     "doc": "Systems",
     "title": "Systems",
     "content": " ",
     "url": "/systems/",
     
     "relUrl": "/systems/"
-  },"9": {
+  },"10": {
     "doc": "Games",
     "title": "Games",
     "content": " ",
     "url": "/games/",
     
     "relUrl": "/games/"
-  },"10": {
+  },"11": {
     "doc": "Home",
     "title": "Welcome to the Retroid Pocket 5 Emulation Hub",
     "content": "Your ultimate resource for setting up and optimizing Retroid Pocket 5 emulation. This site provides a comprehensive, hand-picked database of games, emulators, and settings to help you achieve smooth, full-speed gameplay at 1080p. ",
     "url": "/#welcome-to-the-retroid-pocket-5-emulation-hub",
     
     "relUrl": "/#welcome-to-the-retroid-pocket-5-emulation-hub"
-  },"11": {
+  },"12": {
     "doc": "Home",
     "title": "🚀 What You’ll Find Here",
     "content": "🎮 Game Database . Explore an extensive collection of games, each meticulously tested to ensure optimal performance. Each entry includes: . | Full speed settings for 1080p gameplay. | Emulator-specific tweaks. | Game-specific tweaks. | Controller configurations. | . 👉 Browse Games . 🕹️ Emulator Guides . Detailed guides for configuring the best emulators for Retroid Pocket 5, including: . | Installation instructions. | Performance settings. | Compatibility tips. | . 👉 View Emulator Guides . ",
     "url": "/#-what-youll-find-here",
     
     "relUrl": "/#-what-youll-find-here"
-  },"12": {
+  },"13": {
     "doc": "Home",
     "title": "📋 Supported Systems",
     "content": "This site includes settings and optimizations for the following platforms: . | GameCube (by Nintendo) | 64 (by Nintendo) | PlayStation 2 (by Sony) | PlayStation Portable (by Sony) | PlayStation (by Sony) | Saturn (by Sega) | PlayStation Vita (by Sony) | Wii (by Nintendo) | Wii U (by Nintendo) | Windows (by Microsoft) | . ",
     "url": "/#-supported-systems",
     
     "relUrl": "/#-supported-systems"
-  },"13": {
+  },"14": {
     "doc": "Home",
     "title": "🌟 Getting Started",
     "content": "Ready to dive in? Here’s how to begin: . | Set Up Your System: Follow our First Steps guide. | Install Emulators: Choose the best emulators for your needs. | Find Your Games: Browse the game database for settings. | . ",
     "url": "/#-getting-started",
     
     "relUrl": "/#-getting-started"
-  },"14": {
+  },"15": {
     "doc": "Home",
     "title": "🛡️ Stay Updated",
     "content": "We’re always adding new games, systems, and optimizations. Bookmark this page and check back regularly for the latest updates! . ",
     "url": "/#%EF%B8%8F-stay-updated",
     
     "relUrl": "/#️-stay-updated"
-  },"15": {
+  },"16": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"16": {
+  },"17": {
     "doc": 64,
     "title": 64,
     "content": " ",
     "url": "/systems/nintendo/n64.html",
     
     "relUrl": "/systems/nintendo/n64.html"
-  },"17": {
+  },"18": {
     "doc": "Perfect Dark",
     "title": "Perfect Dark",
     "content": "In-game Options available only after selection of agent. ",
     "url": "/games/p/perfect_dark.html",
     
     "relUrl": "/games/p/perfect_dark.html"
-  },"18": {
+  },"19": {
     "doc": "PlayStation 2",
     "title": "PlayStation 2",
     "content": " ",
     "url": "/systems/sony/ps2.html",
     
     "relUrl": "/systems/sony/ps2.html"
-  },"19": {
+  },"20": {
     "doc": "PlayStation Portable",
     "title": "PlayStation Portable",
     "content": " ",
     "url": "/systems/sony/psp.html",
     
     "relUrl": "/systems/sony/psp.html"
-  },"20": {
+  },"21": {
     "doc": "PlayStation",
     "title": "PlayStation",
     "content": " ",
     "url": "/systems/sony/psx.html",
     
     "relUrl": "/systems/sony/psx.html"
-  },"21": {
+  },"22": {
     "doc": "Saturn",
     "title": "Saturn",
     "content": " ",
     "url": "/systems/sega/saturn.html",
     
     "relUrl": "/systems/sega/saturn.html"
-  },"22": {
+  },"23": {
     "doc": "PlayStation Vita",
     "title": "PlayStation Vita",
     "content": " ",
     "url": "/systems/sony/vita.html",
     
     "relUrl": "/systems/sony/vita.html"
-  },"23": {
+  },"24": {
     "doc": "Wii",
     "title": "Wii",
     "content": " ",
     "url": "/systems/nintendo/wii.html",
     
     "relUrl": "/systems/nintendo/wii.html"
-  },"24": {
+  },"25": {
     "doc": "Wii U",
     "title": "Wii U",
     "content": " ",
     "url": "/systems/nintendo/wiiu.html",
     
     "relUrl": "/systems/nintendo/wiiu.html"
-  },"25": {
+  },"26": {
     "doc": "Windows",
     "title": "Windows",
     "content": " ",
     "url": "/systems/microsoft/windows.html",
     
     "relUrl": "/systems/microsoft/windows.html"
-  },"26": {
+  },"27": {
     "doc": "0-9",
     "title": "0-9",
     "content": "# Games: 0-9 ",
     "url": "/games/0-9/",
     
     "relUrl": "/games/0-9/"
-  },"27": {
+  },"28": {
     "doc": "A",
     "title": "A",
     "content": "# Games: A ",
     "url": "/games/a/",
     
     "relUrl": "/games/a/"
-  },"28": {
+  },"29": {
+    "doc": "D",
+    "title": "D",
+    "content": "# Games: D ",
+    "url": "/games/d/",
+    
+    "relUrl": "/games/d/"
+  },"30": {
     "doc": "P",
     "title": "P",
     "content": "# Games: P ",
