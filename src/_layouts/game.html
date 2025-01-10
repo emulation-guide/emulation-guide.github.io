@@ -25,7 +25,7 @@ layout: default
 <h2>Additional information</h2>
 <dl>
   <dt>System</dt>
-  <dd><a href="/systems/{{ system.manufacturer | downcase }}/{{ page.system | escape }}.html">{{ system.title }}</a></dd>
+  <dd><a href="/systems/{{ system.manufacturer | downcase }}/{{ page.system | escape }}.html">{{ system.manufacturer }} {{ system.title }}</a></dd>
   <dt>Emulator</dt>
   <dd>{{ emulator.title }}</dd>
   <dt>Game details</dt>
