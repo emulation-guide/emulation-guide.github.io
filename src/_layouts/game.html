@@ -31,7 +31,8 @@ layout: default
   <dt>Game details</dt>
   <dd><a href="{{ page.details }}" target="_blank">Link</a></dd>
   <dt>ROM search</dt>
-  <dd><a href="https://www.google.com/search?q={{ page.title | url_encode }}+%28{{ system.title | url_encode }}%29+rom" target="_blank">Link</a></dd>
+  {% capture rom_query %}{{ page.title }} ({{ system.manufacturer }} {{ system.title }}) rom{% endcapture %}
+  <dd><a href="https://www.google.com/search?q={{ rom_query | url_encode }}" target="_blank">Link</a></dd>
 </dl>
 <p class="info-block">
   <span class="title">Notice</span>
