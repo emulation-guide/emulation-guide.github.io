@@ -19,6 +19,11 @@ config:
             Zoom: 110 %
         Controller:
             Controller 1 profile: Base Profile (1st Person)
+        Advanced:
+            Use default count per operation: false
+            Count per operation: 1
+            Use default overclocking factor: false
+            Overclocking Factor: 5
 ingame:
     Options:
         Video:
@@ -27,8 +32,5 @@ ingame:
         Control:
             Control Style: 1.2
             Reverse Pitch: false
-        Advanced:
-            Use default overclocking factor: false
-            Overclocking Factor: 5
 ---
 In-game *Options* available only after **selection of agent**.

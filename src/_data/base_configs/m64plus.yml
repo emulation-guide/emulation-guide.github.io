@@ -99,7 +99,7 @@ Profiles/Emulation/NEW:
     Use native resolution factor: 4x
   Texture Filtering:
     Texture filter mode: Sharp 2
-    Texture Enhancement: Store as is
+    Texture Enhancement: None
     Deposterize texture before enhancement: false
     Don't filter background textures: false
     Size of filtered textures cache in megabytes: 1024 MB
